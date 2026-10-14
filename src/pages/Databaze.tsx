@@ -50,7 +50,7 @@ export function Databaze() {
   const vse = useApi<SeznamSpravcuOdpoved>(zalozka === 'kola' ? `spravci${qs({ verze })}` : null)
 
   return (
-    <div className="kontejner stranka">
+    <div className="kontejner kontejner-siroky stranka">
       <Hlavicka eyebrow={`Modul M2 · data v${verze}`} nadpis="Pilotní databáze">
         <p>
           30 VC subjektů a 25 kol financování (stav k 11. 10. 2026). Texty sloupců jsou doslovně podle tabulky{' '}
@@ -158,7 +158,17 @@ export function Databaze() {
                 Zobrazeno {data.spravci.length} z {data.celkem} záznamů.
               </p>
               <div className="tabulka-obal" style={{ opacity: nacita ? 0.6 : 1 }}>
-                <table>
+                <table className="tabulka-pilot">
+                  <colgroup>
+                    <col className="sl-cislo" />
+                    <col className="sl-subjekt" />
+                    <col className="sl-skupina" />
+                    <col className="sl-investice" />
+                    <col className="sl-datum" />
+                    <col className="sl-fond" />
+                    <col className="sl-tiket" />
+                    <col className="sl-stav" />
+                  </colgroup>
                   <thead>
                     <tr>
                       <th>#</th>
@@ -175,26 +185,26 @@ export function Databaze() {
                     {data.spravci.map((s) => (
                       <tr key={s.id} className="klik" onClick={(e) => !(e.target as HTMLElement).closest('a') && navigate(`/databaze/${s.id}`)}>
                         <td className="num">{s.id}</td>
-                        <td style={{ minWidth: 170 }}>
+                        <td>
                           <Link to={`/databaze/${s.id}`} style={{ fontWeight: 600 }}>
                             {s.subjekt_text}
                           </Link>
                           <div className="mala muted">{KATEGORIE[s.kategorie]}</div>
                         </td>
                         <td>{s.skupina_text}</td>
-                        <td className="siroky">
+                        <td>
                           <TextSCitacemi text={s.investice_text} />
                         </td>
-                        <td style={{ minWidth: 150 }}>
+                        <td>
                           <TextSCitacemi text={s.datum_zdroj_text} />
                         </td>
-                        <td className="siroky">
+                        <td>
                           <TextSCitacemi text={s.fond_text} />
                         </td>
-                        <td style={{ minWidth: 150 }}>
+                        <td>
                           <TextSCitacemi text={s.tiket_text} />
                         </td>
-                        <td style={{ minWidth: 140 }}>
+                        <td>
                           <StupenStitek stupen={s.stupen} stav={s.stav_aktivity} />
                           {s.stav_text !== s.stupen && (
                             <div className="mala muted mezera-s">

@@ -460,8 +460,59 @@ tr.zvyrazneno td {
   background: var(--tint);
   font-weight: 600;
 }
-td.siroky {
-  min-width: 220px;
+/* Široké stránky (pilotní databáze): na notebooku i monitoru využijí celou šířku. */
+.kontejner-siroky {
+  max-width: 1680px;
+}
+
+/* Tabulka pilotu (kap. 7.1): pevné rozložení sloupců, aby se na šířku ≥1100 px vešla bez posouvání. */
+.tabulka-pilot {
+  table-layout: fixed;
+  font-size: 13.5px;
+  line-height: 1.5;
+}
+.tabulka-pilot th {
+  white-space: normal;
+  font-size: 11px;
+  letter-spacing: 0.03em;
+}
+.tabulka-pilot th,
+.tabulka-pilot td {
+  padding: 9px 10px;
+  overflow-wrap: break-word;
+}
+.tabulka-pilot .stitek {
+  white-space: normal;
+}
+.tabulka-pilot .sl-cislo {
+  width: 3%;
+}
+.tabulka-pilot .sl-subjekt {
+  width: 12%;
+}
+.tabulka-pilot .sl-skupina {
+  width: 4%;
+}
+.tabulka-pilot .sl-investice {
+  width: 23%;
+}
+.tabulka-pilot .sl-datum {
+  width: 12%;
+}
+.tabulka-pilot .sl-fond {
+  width: 21%;
+}
+.tabulka-pilot .sl-tiket {
+  width: 13%;
+}
+.tabulka-pilot .sl-stav {
+  width: 12%;
+}
+/* Užší displeje (tablet, mobil): minimální šířka a vodorovné posouvání uvnitř obalu tabulky. */
+@media (max-width: 1099px) {
+  .tabulka-pilot {
+    min-width: 1040px;
+  }
 }
 
 /* Formuláře */
