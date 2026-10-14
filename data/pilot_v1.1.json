@@ -1,0 +1,2792 @@
+{
+ "verze": "1.1",
+ "stav_k": "2026-10-11",
+ "datum_vyhodnoceni": "2026-10-11",
+ "opravy_13_10_2026": "Viz kap. 7.2 (Příloha B) a pole opravy_7_2 u záznamů.",
+ "kola": [
+  {
+   "id": "K01",
+   "firma": "Duvo.ai",
+   "zeme_firmy": null,
+   "kolo": "pre-seed+seed",
+   "castka_kola": 16500000,
+   "mena": "USD",
+   "castka_text": "16,5 mil. USD",
+   "datum_publikace": "2026-01-02",
+   "zdroje": [
+    30
+   ],
+   "poznamka": null
+  },
+  {
+   "id": "K02",
+   "firma": "Picogrid",
+   "zeme_firmy": null,
+   "kolo": null,
+   "castka_kola": 45000000,
+   "mena": "USD",
+   "castka_text": "45 mil. USD",
+   "datum_publikace": "2026-06-02",
+   "zdroje": [
+    33
+   ],
+   "poznamka": null
+  },
+  {
+   "id": "K03",
+   "firma": "Jutro Medical",
+   "zeme_firmy": "PL",
+   "kolo": "Series A",
+   "castka_kola": 24000000,
+   "mena": "EUR",
+   "castka_text": "24 mil. EUR",
+   "datum_publikace": "2026-01-02",
+   "zdroje": [
+    30
+   ],
+   "poznamka": null
+  },
+  {
+   "id": "K04",
+   "firma": "Viktor",
+   "zeme_firmy": null,
+   "kolo": null,
+   "castka_kola": 75000000,
+   "mena": "USD",
+   "castka_text": "75 mil. USD",
+   "datum_publikace": "2026-05-20",
+   "zdroje": [
+    34
+   ],
+   "poznamka": null
+  },
+  {
+   "id": "K05",
+   "firma": "Vetstor",
+   "zeme_firmy": null,
+   "kolo": "seed",
+   "castka_kola": 1000000,
+   "mena": "EUR",
+   "castka_text": "1 mil. EUR",
+   "datum_publikace": "2026-01-02",
+   "zdroje": [
+    30
+   ],
+   "poznamka": null
+  },
+  {
+   "id": "K06",
+   "firma": "Rightcharge",
+   "zeme_firmy": null,
+   "kolo": null,
+   "castka_kola": 14000000,
+   "mena": "CZK",
+   "castka_text": "14 mil. Kč",
+   "datum_publikace": "2026-09-03",
+   "zdroje": [
+    19
+   ],
+   "poznamka": null
+  },
+  {
+   "id": "K07",
+   "firma": "Carta Genum",
+   "zeme_firmy": null,
+   "kolo": "pre-seed",
+   "castka_kola": 40000,
+   "mena": "EUR",
+   "castka_text": "40 tis. EUR",
+   "datum_publikace": "2026-01-22",
+   "zdroje": [
+    15,
+    36
+   ],
+   "poznamka": null
+  },
+  {
+   "id": "K08",
+   "firma": "ValkaAI",
+   "zeme_firmy": null,
+   "kolo": "pre-seed",
+   "castka_kola": 12000000,
+   "mena": "EUR",
+   "castka_text": "12 mil. EUR",
+   "datum_publikace": "2026-02-24",
+   "zdroje": [
+    16,
+    17
+   ],
+   "poznamka": "12 mil. EUR je celé pre-seed kolo pěti fondů a anděla; podíly jednotlivých investorů nejsou zveřejněny (kap. 3.2)."
+  },
+  {
+   "id": "K09",
+   "firma": "PangeAI",
+   "zeme_firmy": null,
+   "kolo": "pre-seed",
+   "castka_kola": 1000000,
+   "mena": "USD",
+   "castka_text": "1 mil. USD",
+   "datum_publikace": "2026-01-02",
+   "zdroje": [
+    30
+   ],
+   "poznamka": null
+  },
+  {
+   "id": "K10",
+   "firma": "WanderWallet",
+   "zeme_firmy": null,
+   "kolo": "pre-seed",
+   "castka_kola": 10500000,
+   "mena": "CZK",
+   "castka_text": "10,5 mil. Kč",
+   "datum_publikace": "2026-04-01",
+   "zdroje": [
+    42
+   ],
+   "poznamka": null
+  },
+  {
+   "id": "K11",
+   "firma": "GigaScan",
+   "zeme_firmy": null,
+   "kolo": null,
+   "castka_kola": 2100000,
+   "mena": "EUR",
+   "castka_text": "2,1 mil. EUR",
+   "datum_publikace": "2026-09-17",
+   "zdroje": [
+    39
+   ],
+   "poznamka": null
+  },
+  {
+   "id": "K12",
+   "firma": "Phantasma Labs",
+   "zeme_firmy": null,
+   "kolo": null,
+   "castka_kola": 2100000,
+   "mena": "EUR",
+   "castka_text": "2,1 mil. EUR",
+   "datum_publikace": "2026-09-17",
+   "zdroje": [
+    39
+   ],
+   "poznamka": null
+  },
+  {
+   "id": "K13",
+   "firma": "Hermetiq",
+   "zeme_firmy": null,
+   "kolo": null,
+   "castka_kola": null,
+   "mena": null,
+   "castka_text": null,
+   "datum_publikace": "2026-09-17",
+   "zdroje": [
+    39
+   ],
+   "poznamka": null
+  },
+  {
+   "id": "K14",
+   "firma": "AppNava",
+   "zeme_firmy": null,
+   "kolo": null,
+   "castka_kola": null,
+   "mena": null,
+   "castka_text": null,
+   "datum_publikace": "2026-09-17",
+   "zdroje": [
+    39
+   ],
+   "poznamka": null
+  },
+  {
+   "id": "K15",
+   "firma": "Repsense",
+   "zeme_firmy": "LT",
+   "kolo": null,
+   "castka_kola": 1100000,
+   "mena": "EUR",
+   "castka_text": "1,1 mil. EUR",
+   "datum_publikace": "2026-01-02",
+   "zdroje": [
+    30
+   ],
+   "poznamka": null
+  },
+  {
+   "id": "K16",
+   "firma": "Andercore",
+   "zeme_firmy": "DE",
+   "kolo": null,
+   "castka_kola": 40000000,
+   "mena": "USD",
+   "castka_text": "40 mil. USD",
+   "datum_publikace": "2026-02-12",
+   "zdroje": [
+    40
+   ],
+   "poznamka": null
+  },
+  {
+   "id": "K17",
+   "firma": "Atmos Space Cargo",
+   "zeme_firmy": null,
+   "kolo": null,
+   "castka_kola": 25700000,
+   "mena": "EUR",
+   "castka_text": "25,7 mil. EUR",
+   "datum_publikace": "2026-04-22",
+   "zdroje": [
+    29
+   ],
+   "poznamka": null
+  },
+  {
+   "id": "K18",
+   "firma": "Theorema",
+   "zeme_firmy": null,
+   "kolo": "pre-seed",
+   "castka_kola": 70000000,
+   "mena": "CZK",
+   "castka_text": "70 mil. Kč",
+   "datum_publikace": "2026-04-01",
+   "zdroje": [
+    42
+   ],
+   "poznamka": null
+  },
+  {
+   "id": "K19",
+   "firma": "Merchantee",
+   "zeme_firmy": null,
+   "kolo": null,
+   "castka_kola": 1800000,
+   "mena": "EUR",
+   "castka_text": "~1,8 mil. EUR",
+   "datum_publikace": "2026-06-09",
+   "zdroje": [
+    43,
+    44
+   ],
+   "poznamka": null
+  },
+  {
+   "id": "K20",
+   "firma": "FluoSphera",
+   "zeme_firmy": "CH",
+   "kolo": null,
+   "castka_kola": 29000000,
+   "mena": "CZK",
+   "castka_text": "29 mil. Kč",
+   "datum_publikace": "2026-02-02",
+   "zdroje": [
+    15
+   ],
+   "poznamka": null
+  },
+  {
+   "id": "K21",
+   "firma": "eNOugh",
+   "zeme_firmy": null,
+   "kolo": null,
+   "castka_kola": 2700000,
+   "mena": "USD",
+   "castka_text": "2,7 mil. USD",
+   "datum_publikace": "2026-01-02",
+   "zdroje": [
+    30
+   ],
+   "poznamka": null
+  },
+  {
+   "id": "K22",
+   "firma": "Wonderful.ai",
+   "zeme_firmy": null,
+   "kolo": null,
+   "castka_kola": null,
+   "mena": null,
+   "castka_text": "částka kola nezveřejněna",
+   "datum_publikace": "2025-11-04",
+   "zdroje": [
+    52
+   ],
+   "poznamka": "Dalšími investory kola jsou Index Ventures a Bessemer Venture Partners."
+  },
+  {
+   "id": "K23",
+   "firma": "EveryHealth",
+   "zeme_firmy": null,
+   "kolo": null,
+   "castka_kola": null,
+   "mena": null,
+   "castka_text": "částka kola nezveřejněna",
+   "datum_publikace": "2025-11-04",
+   "zdroje": [
+    52
+   ],
+   "poznamka": "Dalším investorem kola je Taimi."
+  },
+  {
+   "id": "K24",
+   "firma": "Aiviro",
+   "zeme_firmy": null,
+   "kolo": null,
+   "castka_kola": 450000,
+   "mena": "EUR",
+   "castka_text": "450 tis. EUR",
+   "datum_publikace": "2026-01-02",
+   "zdroje": [
+    30
+   ],
+   "poznamka": null
+  },
+  {
+   "id": "K25",
+   "firma": "Whisper",
+   "zeme_firmy": null,
+   "kolo": null,
+   "castka_kola": 300000,
+   "mena": "EUR",
+   "castka_text": "300 tis. EUR",
+   "datum_publikace": "2026-02-02",
+   "zdroje": [
+    50
+   ],
+   "poznamka": null
+  }
+ ],
+ "spravci": [
+  {
+   "id": 1,
+   "nazev": "Credo Ventures",
+   "dalsi_nazvy": [],
+   "kategorie": "VC",
+   "typ_osoby": "PO",
+   "skupina_relevance": "1",
+   "subjekt_text": "Credo Ventures",
+   "skupina_text": "1",
+   "investice_text": "Duvo.ai, pre-seed+seed, 16,5 mil. USD; Picogrid, 45 mil. USD[30][33]",
+   "datum_zdroj_text": "CC newsletter 2. 1. 2026; Lupa 2. 6. 2026",
+   "fond_text": "Stage 5: 88 mil. USD závazků (typ uzavření nezveřejněn), CC a Tech.eu 23. 3. 2026[21][22]",
+   "tiket_text": "1–5 mil. USD (CC)[21]",
+   "stav_text": "A",
+   "stav_aktivity": "aktivni",
+   "stupen": "A",
+   "poznamka_stupne": null,
+   "ucasti": [
+    {
+     "kolo_id": "K01",
+     "role": null,
+     "podil_stav": "nezverejneno",
+     "primarni_doklad": true,
+     "zdroj_text": "CC newsletter 2. 1. 2026",
+     "datum_publikace": "2026-01-02",
+     "zdroje": [
+      30
+     ]
+    },
+    {
+     "kolo_id": "K02",
+     "role": null,
+     "podil_stav": "nezverejneno",
+     "primarni_doklad": true,
+     "zdroj_text": "Lupa 2. 6. 2026",
+     "datum_publikace": "2026-06-02",
+     "zdroje": [
+      33
+     ]
+    }
+   ],
+   "udalosti": [],
+   "fondy": [
+    {
+     "nazev": "Stage 5",
+     "hodnoty": [
+      {
+       "text": "88 mil. USD závazků (typ uzavření nezveřejněn)",
+       "min": 88000000,
+       "max": null,
+       "mena": "USD",
+       "typ_castky": "zavazky_typ_uzavreni_nedohledan",
+       "rozhodne_datum": "2026-03-23",
+       "stav_hodnoty": "overeno",
+       "stupen_pole": null,
+       "zdroje": [
+        21,
+        22
+       ]
+      }
+     ]
+    }
+   ],
+   "tiket": {
+    "text": "1–5 mil. USD",
+    "min": 1000000,
+    "max": 5000000,
+    "mena": "USD",
+    "typ_castky": null,
+    "rozhodne_datum": null,
+    "stav_hodnoty": "overeno",
+    "stupen_pole": "samodeklarovano",
+    "zdroje": [
+     21
+    ]
+   },
+   "opravy_7_2": [
+    "Credo: 170 mil. EUR (CVCA, 2020) nahrazuje Stage 5 s 88 mil. USD, [5][21] typ uzavření je nedohledán."
+   ],
+   "ma_primarni_doklad_24m": true,
+   "je_skutecny_investor_predbezne": true,
+   "tiket_deklarovany": true,
+   "fond_s_typem_a_datem": true,
+   "fond_castka_uvedena": true,
+   "kontrolni_negativni_pripad": false
+  },
+  {
+   "id": 2,
+   "nazev": "Kaya VC",
+   "dalsi_nazvy": [
+    "Kaya"
+   ],
+   "kategorie": "VC",
+   "typ_osoby": "PO",
+   "skupina_relevance": "1",
+   "subjekt_text": "Kaya VC",
+   "skupina_text": "1",
+   "investice_text": "Jutro Medical (PL), Series A, 24 mil. EUR; Viktor, 75 mil. USD[30][34]",
+   "datum_zdroj_text": "CC 2. 1. 2026; Lupa 20. 5. 2026",
+   "fond_text": "Fond V: first close 70 mil. EUR, cíl 80 mil. EUR (Vestbee, 25. 6. 2025)[65]",
+   "tiket_text": "1–3 mil. EUR první investice (EU-Startups, 25. 6. 2025)[66]",
+   "stav_text": "A",
+   "stav_aktivity": "aktivni",
+   "stupen": "A",
+   "poznamka_stupne": null,
+   "ucasti": [
+    {
+     "kolo_id": "K03",
+     "role": null,
+     "podil_stav": "nezverejneno",
+     "primarni_doklad": true,
+     "zdroj_text": "CC 2. 1. 2026",
+     "datum_publikace": "2026-01-02",
+     "zdroje": [
+      30
+     ]
+    },
+    {
+     "kolo_id": "K04",
+     "role": null,
+     "podil_stav": "nezverejneno",
+     "primarni_doklad": true,
+     "zdroj_text": "Lupa 20. 5. 2026",
+     "datum_publikace": "2026-05-20",
+     "zdroje": [
+      34
+     ]
+    }
+   ],
+   "udalosti": [],
+   "fondy": [
+    {
+     "nazev": "Fond V",
+     "hodnoty": [
+      {
+       "text": "first close 70 mil. EUR",
+       "min": 70000000,
+       "max": null,
+       "mena": "EUR",
+       "typ_castky": "first_close",
+       "rozhodne_datum": "2025-06-25",
+       "stav_hodnoty": "overeno",
+       "stupen_pole": null,
+       "zdroje": [
+        65
+       ]
+      },
+      {
+       "text": "cíl 80 mil. EUR",
+       "min": 80000000,
+       "max": null,
+       "mena": "EUR",
+       "typ_castky": "cil",
+       "rozhodne_datum": "2025-06-25",
+       "stav_hodnoty": "overeno",
+       "stupen_pole": null,
+       "zdroje": [
+        65
+       ]
+      }
+     ]
+    }
+   ],
+   "tiket": {
+    "text": "1–3 mil. EUR první investice",
+    "min": 1000000,
+    "max": 3000000,
+    "mena": "EUR",
+    "typ_castky": null,
+    "rozhodne_datum": "2025-06-25",
+    "stav_hodnoty": "overeno",
+    "stupen_pole": "samodeklarovano",
+    "zdroje": [
+     66
+    ]
+   },
+   "opravy_7_2": [
+    "Doplněné zdroje (13. 10. 2026): Kaya fond a tiket [65][66]."
+   ],
+   "ma_primarni_doklad_24m": true,
+   "je_skutecny_investor_predbezne": true,
+   "tiket_deklarovany": true,
+   "fond_s_typem_a_datem": true,
+   "fond_castka_uvedena": true,
+   "kontrolni_negativni_pripad": false
+  },
+  {
+   "id": 3,
+   "nazev": "Purple Ventures",
+   "dalsi_nazvy": [],
+   "kategorie": "VC",
+   "typ_osoby": "PO",
+   "skupina_relevance": "1",
+   "subjekt_text": "Purple Ventures",
+   "skupina_text": "1",
+   "investice_text": "Vetstor, seed, 1 mil. EUR;[30] Rightcharge, 14 mil. Kč",
+   "datum_zdroj_text": "CC 2. 1. 2026; fxstreet 3. 9. 2026",
+   "fond_text": "PV2: >700 mil. Kč získáno, cíl 1 mld. Kč (12. 3. 2026)",
+   "tiket_text": "6–19 mil. Kč (CC)[35]",
+   "stav_text": "A[18][19]",
+   "stav_aktivity": "aktivni",
+   "stupen": "A",
+   "poznamka_stupne": null,
+   "ucasti": [
+    {
+     "kolo_id": "K05",
+     "role": null,
+     "podil_stav": "nezverejneno",
+     "primarni_doklad": true,
+     "zdroj_text": "CC 2. 1. 2026",
+     "datum_publikace": "2026-01-02",
+     "zdroje": [
+      30
+     ]
+    },
+    {
+     "kolo_id": "K06",
+     "role": null,
+     "podil_stav": "nezverejneno",
+     "primarni_doklad": true,
+     "zdroj_text": "fxstreet 3. 9. 2026",
+     "datum_publikace": "2026-09-03",
+     "zdroje": [
+      19
+     ]
+    }
+   ],
+   "udalosti": [],
+   "fondy": [
+    {
+     "nazev": "PV2 (Purple Ventures 2)",
+     "hodnoty": [
+      {
+       "text": ">700 mil. Kč získáno",
+       "min": 700000000,
+       "max": null,
+       "mena": "CZK",
+       "typ_castky": "ziskano",
+       "rozhodne_datum": "2026-03-12",
+       "stav_hodnoty": "overeno",
+       "stupen_pole": null,
+       "zdroje": [
+        18,
+        19
+       ]
+      },
+      {
+       "text": "cíl 1 mld. Kč",
+       "min": 1000000000,
+       "max": null,
+       "mena": "CZK",
+       "typ_castky": "cil",
+       "rozhodne_datum": "2026-03-12",
+       "stav_hodnoty": "overeno",
+       "stupen_pole": null,
+       "zdroje": [
+        18,
+        19
+       ]
+      }
+     ]
+    }
+   ],
+   "tiket": {
+    "text": "6–19 mil. Kč",
+    "min": 6000000,
+    "max": 19000000,
+    "mena": "CZK",
+    "typ_castky": null,
+    "rozhodne_datum": null,
+    "stav_hodnoty": "overeno",
+    "stupen_pole": "samodeklarovano",
+    "zdroje": [
+     35
+    ]
+   },
+   "opravy_7_2": [],
+   "ma_primarni_doklad_24m": true,
+   "je_skutecny_investor_predbezne": true,
+   "tiket_deklarovany": true,
+   "fond_s_typem_a_datem": true,
+   "fond_castka_uvedena": true,
+   "kontrolni_negativni_pripad": false
+  },
+  {
+   "id": 4,
+   "nazev": "Czech Founders VC",
+   "dalsi_nazvy": [],
+   "kategorie": "VC",
+   "typ_osoby": "PO",
+   "skupina_relevance": "1",
+   "subjekt_text": "Czech Founders VC",
+   "skupina_text": "1",
+   "investice_text": "Carta Genum, pre-seed, 40 tis. EUR[15][36]; Spicy Cells (jen agregátor)",
+   "datum_zdroj_text": "Lupa 22. 1. 2026; CC newsletter 2. 2. 2026",
+   "fond_text": "konflikt: ~30 mil. EUR (Lupa)[37] vs. 250 mil. Kč od 45 zakladatelů (CzechCrunch)[63]",
+   "tiket_text": "~1 mil. Kč na vstupu, další financování do ~6 mil. Kč (CC, 5. 2. 2025)[64]",
+   "stav_text": "A",
+   "stav_aktivity": "aktivni",
+   "stupen": "A",
+   "poznamka_stupne": "Akcelerátor; zařazen díky doložené kapitálové investici (kap. 2.2).",
+   "ucasti": [
+    {
+     "kolo_id": "K07",
+     "role": null,
+     "podil_stav": "nezverejneno",
+     "primarni_doklad": true,
+     "zdroj_text": "Lupa 22. 1. 2026; CC newsletter 2. 2. 2026",
+     "datum_publikace": "2026-01-22",
+     "zdroje": [
+      15,
+      36
+     ]
+    }
+   ],
+   "udalosti": [
+    {
+     "typ_udalosti": "jen_agregator",
+     "firma": "Spicy Cells",
+     "primarni_doklad": false,
+     "zdroj_text": "jen agregátor",
+     "zdroje": []
+    }
+   ],
+   "fondy": [
+    {
+     "nazev": null,
+     "hodnoty": [
+      {
+       "text": "~30 mil. EUR (Lupa)",
+       "min": 30000000,
+       "max": null,
+       "mena": "EUR",
+       "typ_castky": "neuvedeno",
+       "rozhodne_datum": null,
+       "stav_hodnoty": "konflikt",
+       "stupen_pole": null,
+       "zdroje": [
+        37
+       ]
+      },
+      {
+       "text": "250 mil. Kč od 45 zakladatelů (CzechCrunch)",
+       "min": 250000000,
+       "max": null,
+       "mena": "CZK",
+       "typ_castky": "neuvedeno",
+       "rozhodne_datum": null,
+       "stav_hodnoty": "konflikt",
+       "stupen_pole": null,
+       "zdroje": [
+        63
+       ]
+      }
+     ]
+    }
+   ],
+   "tiket": {
+    "text": "~1 mil. Kč na vstupu, další financování do ~6 mil. Kč",
+    "min": 1000000,
+    "max": 6000000,
+    "mena": "CZK",
+    "typ_castky": null,
+    "rozhodne_datum": "2025-02-05",
+    "stav_hodnoty": "overeno",
+    "stupen_pole": "samodeklarovano",
+    "zdroje": [
+     64
+    ]
+   },
+   "opravy_7_2": [
+    "„Czech Founders: 79 transakcí“ je ve skutečnosti údaj ROLU.cz. Czech Founders VC a United Founders jsou dva různé subjekty. [4][52]"
+   ],
+   "ma_primarni_doklad_24m": true,
+   "je_skutecny_investor_predbezne": true,
+   "tiket_deklarovany": true,
+   "fond_s_typem_a_datem": false,
+   "fond_castka_uvedena": true,
+   "kontrolni_negativni_pripad": false
+  },
+  {
+   "id": 5,
+   "nazev": "Rockaway Ventures",
+   "dalsi_nazvy": [],
+   "kategorie": "VC",
+   "typ_osoby": "PO",
+   "skupina_relevance": "1",
+   "subjekt_text": "Rockaway Ventures",
+   "skupina_text": "1",
+   "investice_text": "ValkaAI, pre-seed, 12 mil. EUR (lead)",
+   "datum_zdroj_text": "TZ Rockaway 24. 2. 2026",
+   "fond_text": "nedohledáno v primárním zdroji",
+   "tiket_text": "nezveřejněno",
+   "stav_text": "A[17]",
+   "stav_aktivity": "aktivni",
+   "stupen": "A",
+   "poznamka_stupne": null,
+   "ucasti": [
+    {
+     "kolo_id": "K08",
+     "role": "lead",
+     "podil_stav": "nezverejneno",
+     "primarni_doklad": true,
+     "zdroj_text": "TZ Rockaway 24. 2. 2026",
+     "datum_publikace": "2026-02-24",
+     "zdroje": [
+      16,
+      17
+     ]
+    }
+   ],
+   "udalosti": [],
+   "fondy": [
+    {
+     "nazev": null,
+     "hodnoty": [
+      {
+       "text": "nedohledáno v primárním zdroji",
+       "min": null,
+       "max": null,
+       "mena": null,
+       "typ_castky": null,
+       "rozhodne_datum": null,
+       "stav_hodnoty": "nedohledano",
+       "stupen_pole": null,
+       "zdroje": []
+      }
+     ]
+    }
+   ],
+   "tiket": {
+    "text": null,
+    "min": null,
+    "max": null,
+    "mena": null,
+    "typ_castky": null,
+    "rozhodne_datum": null,
+    "stav_hodnoty": "nezverejneno",
+    "stupen_pole": null,
+    "zdroje": []
+   },
+   "opravy_7_2": [],
+   "ma_primarni_doklad_24m": true,
+   "je_skutecny_investor_predbezne": true,
+   "tiket_deklarovany": false,
+   "fond_s_typem_a_datem": false,
+   "fond_castka_uvedena": false,
+   "kontrolni_negativni_pripad": false
+  },
+  {
+   "id": 6,
+   "nazev": "J&T Ventures",
+   "dalsi_nazvy": [],
+   "kategorie": "VC",
+   "typ_osoby": "PO",
+   "skupina_relevance": "1",
+   "subjekt_text": "J&T Ventures",
+   "skupina_text": "1",
+   "investice_text": "ValkaAI, pre-seed, kolo 12 mil. EUR (citace D. Polacha v TZ)",
+   "datum_zdroj_text": "TZ Rockaway 24. 2. 2026",
+   "fond_text": "konflikt 40 vs. 120 mil. EUR[27][28]",
+   "tiket_text": "nezveřejněno",
+   "stav_text": "A[17]",
+   "stav_aktivity": "aktivni",
+   "stupen": "A",
+   "poznamka_stupne": null,
+   "ucasti": [
+    {
+     "kolo_id": "K08",
+     "role": null,
+     "podil_stav": "nezverejneno",
+     "primarni_doklad": true,
+     "zdroj_text": "TZ Rockaway 24. 2. 2026 (citace D. Polacha v TZ)",
+     "datum_publikace": "2026-02-24",
+     "zdroje": [
+      17
+     ]
+    }
+   ],
+   "udalosti": [],
+   "fondy": [
+    {
+     "nazev": null,
+     "hodnoty": [
+      {
+       "text": "40 mil. EUR",
+       "min": 40000000,
+       "max": null,
+       "mena": "EUR",
+       "typ_castky": "neuvedeno",
+       "rozhodne_datum": null,
+       "stav_hodnoty": "konflikt",
+       "stupen_pole": null,
+       "zdroje": [
+        27
+       ],
+       "poznamka": "agregátor, jen vodítko"
+      },
+      {
+       "text": "120 mil. EUR",
+       "min": 120000000,
+       "max": null,
+       "mena": "EUR",
+       "typ_castky": "neuvedeno",
+       "rozhodne_datum": null,
+       "stav_hodnoty": "konflikt",
+       "stupen_pole": null,
+       "zdroje": [
+        28
+       ]
+      }
+     ],
+     "poznamka": "Spravovaný objem; konflikt zdrojů (kap. 5)."
+    }
+   ],
+   "tiket": {
+    "text": null,
+    "min": null,
+    "max": null,
+    "mena": null,
+    "typ_castky": null,
+    "rozhodne_datum": null,
+    "stav_hodnoty": "nezverejneno",
+    "stupen_pole": null,
+    "zdroje": []
+   },
+   "opravy_7_2": [],
+   "ma_primarni_doklad_24m": true,
+   "je_skutecny_investor_predbezne": true,
+   "tiket_deklarovany": false,
+   "fond_s_typem_a_datem": false,
+   "fond_castka_uvedena": true,
+   "kontrolni_negativni_pripad": false
+  },
+  {
+   "id": 7,
+   "nazev": "Tensor Ventures",
+   "dalsi_nazvy": [],
+   "kategorie": "VC",
+   "typ_osoby": "PO",
+   "skupina_relevance": "1",
+   "subjekt_text": "Tensor Ventures",
+   "skupina_text": "1",
+   "investice_text": "ValkaAI, pre-seed, kolo 12 mil. EUR; PangeAI, pre-seed, 1 mil. USD[30]",
+   "datum_zdroj_text": "TZ 24. 2. 2026; CC 2. 1. 2026",
+   "fond_text": "koinvestiční fond: cíl 1,25 mld. Kč, z toho 500 mil. Kč od MPO a EIF (Hrot24, 14. 5. 2024)[38]",
+   "tiket_text": "250 tis.–1 mil. EUR (CVCA, 2023)[5]",
+   "stav_text": "A[17]",
+   "stav_aktivity": "aktivni",
+   "stupen": "A",
+   "poznamka_stupne": null,
+   "ucasti": [
+    {
+     "kolo_id": "K08",
+     "role": null,
+     "podil_stav": "nezverejneno",
+     "primarni_doklad": true,
+     "zdroj_text": "TZ 24. 2. 2026",
+     "datum_publikace": "2026-02-24",
+     "zdroje": [
+      17
+     ]
+    },
+    {
+     "kolo_id": "K09",
+     "role": null,
+     "podil_stav": "nezverejneno",
+     "primarni_doklad": true,
+     "zdroj_text": "CC 2. 1. 2026",
+     "datum_publikace": "2026-01-02",
+     "zdroje": [
+      30
+     ]
+    }
+   ],
+   "udalosti": [],
+   "fondy": [
+    {
+     "nazev": "koinvestiční fond",
+     "hodnoty": [
+      {
+       "text": "cíl 1,25 mld. Kč",
+       "min": 1250000000,
+       "max": null,
+       "mena": "CZK",
+       "typ_castky": "cil",
+       "rozhodne_datum": "2024-05-14",
+       "stav_hodnoty": "overeno",
+       "stupen_pole": null,
+       "zdroje": [
+        38
+       ]
+      },
+      {
+       "text": "z toho 500 mil. Kč od MPO a EIF",
+       "min": 500000000,
+       "max": null,
+       "mena": "CZK",
+       "typ_castky": "zavazky",
+       "rozhodne_datum": "2024-05-14",
+       "stav_hodnoty": "overeno",
+       "stupen_pole": null,
+       "zdroje": [
+        38
+       ]
+      }
+     ]
+    }
+   ],
+   "tiket": {
+    "text": "250 tis.–1 mil. EUR (CVCA, 2023)",
+    "min": 250000,
+    "max": 1000000,
+    "mena": "EUR",
+    "typ_castky": null,
+    "rozhodne_datum": "2023",
+    "stav_hodnoty": "overeno",
+    "stupen_pole": "samodeklarovano",
+    "zdroje": [
+     5
+    ]
+   },
+   "opravy_7_2": [
+    "Doplněné zdroje (13. 10. 2026): datum článku Hrot24 u Tensoru (14. 5. 2024)."
+   ],
+   "ma_primarni_doklad_24m": true,
+   "je_skutecny_investor_predbezne": true,
+   "tiket_deklarovany": true,
+   "fond_s_typem_a_datem": true,
+   "fond_castka_uvedena": true,
+   "kontrolni_negativni_pripad": false
+  },
+  {
+   "id": 8,
+   "nazev": "BD Partners",
+   "dalsi_nazvy": [],
+   "kategorie": "VC",
+   "typ_osoby": "PO",
+   "skupina_relevance": "1",
+   "subjekt_text": "BD Partners",
+   "skupina_text": "1",
+   "investice_text": "ValkaAI, pre-seed, kolo 12 mil. EUR; WanderWallet, pre-seed, kolo 10,5 mil. Kč[42]",
+   "datum_zdroj_text": "TZ Rockaway 24. 2. 2026; CC newsletter 1. 4. 2026",
+   "fond_text": "nezveřejněno",
+   "tiket_text": "nezveřejněno",
+   "stav_text": "A[17]",
+   "stav_aktivity": "aktivni",
+   "stupen": "A",
+   "poznamka_stupne": null,
+   "ucasti": [
+    {
+     "kolo_id": "K08",
+     "role": null,
+     "podil_stav": "nezverejneno",
+     "primarni_doklad": true,
+     "zdroj_text": "TZ Rockaway 24. 2. 2026",
+     "datum_publikace": "2026-02-24",
+     "zdroje": [
+      17
+     ]
+    },
+    {
+     "kolo_id": "K10",
+     "role": null,
+     "podil_stav": "nezverejneno",
+     "primarni_doklad": true,
+     "zdroj_text": "CC newsletter 1. 4. 2026",
+     "datum_publikace": "2026-04-01",
+     "zdroje": [
+      42
+     ]
+    }
+   ],
+   "udalosti": [],
+   "fondy": [
+    {
+     "nazev": null,
+     "hodnoty": [
+      {
+       "text": null,
+       "min": null,
+       "max": null,
+       "mena": null,
+       "typ_castky": null,
+       "rozhodne_datum": null,
+       "stav_hodnoty": "nezverejneno",
+       "stupen_pole": null,
+       "zdroje": []
+      }
+     ]
+    }
+   ],
+   "tiket": {
+    "text": null,
+    "min": null,
+    "max": null,
+    "mena": null,
+    "typ_castky": null,
+    "rozhodne_datum": null,
+    "stav_hodnoty": "nezverejneno",
+    "stupen_pole": null,
+    "zdroje": []
+   },
+   "opravy_7_2": [],
+   "ma_primarni_doklad_24m": true,
+   "je_skutecny_investor_predbezne": true,
+   "tiket_deklarovany": false,
+   "fond_s_typem_a_datem": false,
+   "fond_castka_uvedena": false,
+   "kontrolni_negativni_pripad": false
+  },
+  {
+   "id": 9,
+   "nazev": "Jet Venture 1 (Jet Investment)",
+   "dalsi_nazvy": [
+    "Jet Investment",
+    "Jet Venture 1"
+   ],
+   "kategorie": "VC",
+   "typ_osoby": "PO",
+   "skupina_relevance": "1",
+   "subjekt_text": "Jet Venture 1 (Jet Investment)",
+   "skupina_text": "1",
+   "investice_text": "GigaScan 2,1 mil. EUR, Phantasma Labs 2,1 mil. EUR, Hermetiq, AppNava[39]",
+   "datum_zdroj_text": "CC 17. 9. 2026",
+   "fond_text": "cíl „až 50 mil. EUR“[39]",
+   "tiket_text": "nezveřejněno",
+   "stav_text": "A",
+   "stav_aktivity": "aktivni",
+   "stupen": "A",
+   "poznamka_stupne": null,
+   "ucasti": [
+    {
+     "kolo_id": "K11",
+     "role": null,
+     "podil_stav": "nezverejneno",
+     "primarni_doklad": true,
+     "zdroj_text": "CC 17. 9. 2026",
+     "datum_publikace": "2026-09-17",
+     "zdroje": [
+      39
+     ]
+    },
+    {
+     "kolo_id": "K12",
+     "role": null,
+     "podil_stav": "nezverejneno",
+     "primarni_doklad": true,
+     "zdroj_text": "CC 17. 9. 2026",
+     "datum_publikace": "2026-09-17",
+     "zdroje": [
+      39
+     ]
+    },
+    {
+     "kolo_id": "K13",
+     "role": null,
+     "podil_stav": "nezverejneno",
+     "primarni_doklad": true,
+     "zdroj_text": "CC 17. 9. 2026",
+     "datum_publikace": "2026-09-17",
+     "zdroje": [
+      39
+     ]
+    },
+    {
+     "kolo_id": "K14",
+     "role": null,
+     "podil_stav": "nezverejneno",
+     "primarni_doklad": true,
+     "zdroj_text": "CC 17. 9. 2026",
+     "datum_publikace": "2026-09-17",
+     "zdroje": [
+      39
+     ]
+    }
+   ],
+   "udalosti": [],
+   "fondy": [
+    {
+     "nazev": "Jet Venture 1",
+     "hodnoty": [
+      {
+       "text": "cíl „až 50 mil. EUR“",
+       "min": null,
+       "max": 50000000,
+       "mena": "EUR",
+       "typ_castky": "cil",
+       "rozhodne_datum": "2026-09-17",
+       "stav_hodnoty": "overeno",
+       "stupen_pole": null,
+       "zdroje": [
+        39
+       ]
+      }
+     ]
+    }
+   ],
+   "tiket": {
+    "text": null,
+    "min": null,
+    "max": null,
+    "mena": null,
+    "typ_castky": null,
+    "rozhodne_datum": null,
+    "stav_hodnoty": "nezverejneno",
+    "stupen_pole": null,
+    "zdroje": []
+   },
+   "opravy_7_2": [],
+   "ma_primarni_doklad_24m": true,
+   "je_skutecny_investor_predbezne": true,
+   "tiket_deklarovany": false,
+   "fond_s_typem_a_datem": true,
+   "fond_castka_uvedena": true,
+   "kontrolni_negativni_pripad": false
+  },
+  {
+   "id": 10,
+   "nazev": "Zaka VC",
+   "dalsi_nazvy": [],
+   "kategorie": "VC",
+   "typ_osoby": "PO",
+   "skupina_relevance": "1",
+   "subjekt_text": "Zaka VC",
+   "skupina_text": "1",
+   "investice_text": "Vetstor, seed, kolo 1 mil. EUR[30]",
+   "datum_zdroj_text": "CC 2. 1. 2026",
+   "fond_text": "jen agregátor (C)",
+   "tiket_text": "nezveřejněno",
+   "stav_text": "A",
+   "stav_aktivity": "aktivni",
+   "stupen": "A",
+   "poznamka_stupne": null,
+   "ucasti": [
+    {
+     "kolo_id": "K05",
+     "role": null,
+     "podil_stav": "nezverejneno",
+     "primarni_doklad": true,
+     "zdroj_text": "CC 2. 1. 2026",
+     "datum_publikace": "2026-01-02",
+     "zdroje": [
+      30
+     ]
+    }
+   ],
+   "udalosti": [],
+   "fondy": [
+    {
+     "nazev": null,
+     "hodnoty": [
+      {
+       "text": "jen agregátor (C)",
+       "min": null,
+       "max": null,
+       "mena": null,
+       "typ_castky": null,
+       "rozhodne_datum": null,
+       "stav_hodnoty": "jen_agregator",
+       "stupen_pole": null,
+       "zdroje": []
+      }
+     ]
+    }
+   ],
+   "tiket": {
+    "text": null,
+    "min": null,
+    "max": null,
+    "mena": null,
+    "typ_castky": null,
+    "rozhodne_datum": null,
+    "stav_hodnoty": "nezverejneno",
+    "stupen_pole": null,
+    "zdroje": []
+   },
+   "opravy_7_2": [
+    "Doplněné zdroje (13. 10. 2026): Zaka VC (newsletter CC 2. 1. 2026 = zdroj [30])."
+   ],
+   "ma_primarni_doklad_24m": true,
+   "je_skutecny_investor_predbezne": true,
+   "tiket_deklarovany": false,
+   "fond_s_typem_a_datem": false,
+   "fond_castka_uvedena": false,
+   "kontrolni_negativni_pripad": false
+  },
+  {
+   "id": 11,
+   "nazev": "Seed Starter (ČS)",
+   "dalsi_nazvy": [
+    "Seed Starter"
+   ],
+   "kategorie": "CVC",
+   "typ_osoby": "PO",
+   "skupina_relevance": "1",
+   "subjekt_text": "Seed Starter (ČS), CVC",
+   "skupina_text": "1",
+   "investice_text": "Repsense (LT), 1,1 mil. EUR[30]",
+   "datum_zdroj_text": "CC 2. 1. 2026",
+   "fond_text": "nezveřejněno",
+   "tiket_text": "nezveřejněno",
+   "stav_text": "A",
+   "stav_aktivity": "aktivni",
+   "stupen": "A",
+   "poznamka_stupne": "CVC rameno banky; banka sama vyřazena, CVC rameno zařazeno (kap. 2.2).",
+   "ucasti": [
+    {
+     "kolo_id": "K15",
+     "role": null,
+     "podil_stav": "nezverejneno",
+     "primarni_doklad": true,
+     "zdroj_text": "CC 2. 1. 2026",
+     "datum_publikace": "2026-01-02",
+     "zdroje": [
+      30
+     ]
+    }
+   ],
+   "udalosti": [],
+   "fondy": [
+    {
+     "nazev": null,
+     "hodnoty": [
+      {
+       "text": null,
+       "min": null,
+       "max": null,
+       "mena": null,
+       "typ_castky": null,
+       "rozhodne_datum": null,
+       "stav_hodnoty": "nezverejneno",
+       "stupen_pole": null,
+       "zdroje": []
+      }
+     ]
+    }
+   ],
+   "tiket": {
+    "text": null,
+    "min": null,
+    "max": null,
+    "mena": null,
+    "typ_castky": null,
+    "rozhodne_datum": null,
+    "stav_hodnoty": "nezverejneno",
+    "stupen_pole": null,
+    "zdroje": []
+   },
+   "opravy_7_2": [],
+   "ma_primarni_doklad_24m": true,
+   "je_skutecny_investor_predbezne": true,
+   "tiket_deklarovany": false,
+   "fond_s_typem_a_datem": false,
+   "fond_castka_uvedena": false,
+   "kontrolni_negativni_pripad": false
+  },
+  {
+   "id": 12,
+   "nazev": "Inven Capital (ČEZ)",
+   "dalsi_nazvy": [
+    "Inven Capital"
+   ],
+   "kategorie": "CVC",
+   "typ_osoby": "PO",
+   "skupina_relevance": "1",
+   "subjekt_text": "Inven Capital (ČEZ), CVC",
+   "skupina_text": "1",
+   "investice_text": "Andercore (DE), 40 mil. USD",
+   "datum_zdroj_text": "deutsche-startups.de 12. 2. 2026",
+   "fond_text": "250 + 250 mil. EUR (CVCA)[5]",
+   "tiket_text": "2–30 mil. EUR (CVCA)[5]",
+   "stav_text": "A[40]",
+   "stav_aktivity": "aktivni",
+   "stupen": "A",
+   "poznamka_stupne": null,
+   "ucasti": [
+    {
+     "kolo_id": "K16",
+     "role": null,
+     "podil_stav": "nezverejneno",
+     "primarni_doklad": true,
+     "zdroj_text": "deutsche-startups.de 12. 2. 2026",
+     "datum_publikace": "2026-02-12",
+     "zdroje": [
+      40
+     ]
+    }
+   ],
+   "udalosti": [],
+   "fondy": [
+    {
+     "nazev": "podfondy",
+     "hodnoty": [
+      {
+       "text": "250 mil. EUR",
+       "min": 250000000,
+       "max": null,
+       "mena": "EUR",
+       "typ_castky": "podfond",
+       "rozhodne_datum": null,
+       "stav_hodnoty": "overeno",
+       "stupen_pole": "samodeklarovano",
+       "zdroje": [
+        5
+       ]
+      },
+      {
+       "text": "250 mil. EUR",
+       "min": 250000000,
+       "max": null,
+       "mena": "EUR",
+       "typ_castky": "podfond",
+       "rozhodne_datum": null,
+       "stav_hodnoty": "overeno",
+       "stupen_pole": "samodeklarovano",
+       "zdroje": [
+        5
+       ]
+      }
+     ],
+     "poznamka": "Fond ≠ AUM organizace; každý údaj samostatně (kap. 3.2). Profil CVCA bez data."
+    }
+   ],
+   "tiket": {
+    "text": "2–30 mil. EUR (CVCA)",
+    "min": 2000000,
+    "max": 30000000,
+    "mena": "EUR",
+    "typ_castky": null,
+    "rozhodne_datum": null,
+    "stav_hodnoty": "overeno",
+    "stupen_pole": "samodeklarovano",
+    "zdroje": [
+     5
+    ]
+   },
+   "opravy_7_2": [],
+   "ma_primarni_doklad_24m": true,
+   "je_skutecny_investor_predbezne": true,
+   "tiket_deklarovany": true,
+   "fond_s_typem_a_datem": false,
+   "fond_castka_uvedena": true,
+   "kontrolni_negativni_pripad": false
+  },
+  {
+   "id": 13,
+   "nazev": "Tech Horizons",
+   "dalsi_nazvy": [
+    "Presto Tech Horizons"
+   ],
+   "kategorie": "VC",
+   "typ_osoby": "PO",
+   "skupina_relevance": "1",
+   "subjekt_text": "Tech Horizons (dříve Presto Tech Horizons)",
+   "skupina_text": "1",
+   "investice_text": "Atmos Space Cargo, 25,7 mil. EUR[29]",
+   "datum_zdroj_text": "CC 22. 4. 2026",
+   "fond_text": "cíl 150 mil. EUR (plánovaný objem investic, 6/2024)[41]",
+   "tiket_text": "nezveřejněno",
+   "stav_text": "A",
+   "stav_aktivity": "aktivni",
+   "stupen": "A",
+   "poznamka_stupne": "Dříve Presto Tech Horizons; přejmenování a odchod tří partnerů [29].",
+   "ucasti": [
+    {
+     "kolo_id": "K17",
+     "role": null,
+     "podil_stav": "nezverejneno",
+     "primarni_doklad": true,
+     "zdroj_text": "CC 22. 4. 2026",
+     "datum_publikace": "2026-04-22",
+     "zdroje": [
+      29
+     ]
+    }
+   ],
+   "udalosti": [],
+   "fondy": [
+    {
+     "nazev": null,
+     "hodnoty": [
+      {
+       "text": "cíl 150 mil. EUR (plánovaný objem investic)",
+       "min": 150000000,
+       "max": null,
+       "mena": "EUR",
+       "typ_castky": "cil",
+       "rozhodne_datum": "2024-06",
+       "stav_hodnoty": "overeno",
+       "stupen_pole": null,
+       "zdroje": [
+        41
+       ]
+      }
+     ]
+    }
+   ],
+   "tiket": {
+    "text": null,
+    "min": null,
+    "max": null,
+    "mena": null,
+    "typ_castky": null,
+    "rozhodne_datum": null,
+    "stav_hodnoty": "nezverejneno",
+    "stupen_pole": null,
+    "zdroje": []
+   },
+   "opravy_7_2": [
+    "Presto Tech Horizons je nově Tech Horizons. [29]"
+   ],
+   "ma_primarni_doklad_24m": true,
+   "je_skutecny_investor_predbezne": true,
+   "tiket_deklarovany": false,
+   "fond_s_typem_a_datem": true,
+   "fond_castka_uvedena": true,
+   "kontrolni_negativni_pripad": false
+  },
+  {
+   "id": 14,
+   "nazev": "Tilia Impact Ventures",
+   "dalsi_nazvy": [
+    "Tilia"
+   ],
+   "kategorie": "VC",
+   "typ_osoby": "PO",
+   "skupina_relevance": "1",
+   "subjekt_text": "Tilia Impact Ventures",
+   "skupina_text": "1",
+   "investice_text": "Theorema, pre-seed, 70 mil. Kč[42]",
+   "datum_zdroj_text": "CC newsletter 1. 4. 2026",
+   "fond_text": "Tilia II: 26 z 32 mil. EUR (first close, 9/2023)[20]",
+   "tiket_text": "300 tis.–1,5 mil. EUR první tiket (Vestbee, rozhovor s GP A. Grayem, 14. 3. 2024)[67]",
+   "stav_text": "A",
+   "stav_aktivity": "aktivni",
+   "stupen": "A",
+   "poznamka_stupne": null,
+   "ucasti": [
+    {
+     "kolo_id": "K18",
+     "role": null,
+     "podil_stav": "nezverejneno",
+     "primarni_doklad": true,
+     "zdroj_text": "CC newsletter 1. 4. 2026",
+     "datum_publikace": "2026-04-01",
+     "zdroje": [
+      42
+     ]
+    }
+   ],
+   "udalosti": [],
+   "fondy": [
+    {
+     "nazev": "Tilia II",
+     "hodnoty": [
+      {
+       "text": "26 mil. EUR (first close)",
+       "min": 26000000,
+       "max": null,
+       "mena": "EUR",
+       "typ_castky": "first_close",
+       "rozhodne_datum": "2023-09",
+       "stav_hodnoty": "overeno",
+       "stupen_pole": null,
+       "zdroje": [
+        20
+       ]
+      },
+      {
+       "text": "cíl 32 mil. EUR",
+       "min": 32000000,
+       "max": null,
+       "mena": "EUR",
+       "typ_castky": "cil",
+       "rozhodne_datum": "2023-09",
+       "stav_hodnoty": "overeno",
+       "stupen_pole": null,
+       "zdroje": [
+        20
+       ]
+      }
+     ]
+    }
+   ],
+   "tiket": {
+    "text": "300 tis.–1,5 mil. EUR první tiket (rozhovor s GP A. Grayem)",
+    "min": 300000,
+    "max": 1500000,
+    "mena": "EUR",
+    "typ_castky": null,
+    "rozhodne_datum": "2024-03-14",
+    "stav_hodnoty": "overeno",
+    "stupen_pole": "samodeklarovano",
+    "zdroje": [
+     67
+    ]
+   },
+   "opravy_7_2": [
+    "Tilia: 62,7 mil. Kč (CVCA) je zastaralý údaj. [5]",
+    "Doplněné zdroje (13. 10. 2026): Tilia tiket (místo nedohledatelného příspěvku na LinkedInu rozhovor na Vestbee) [67]."
+   ],
+   "ma_primarni_doklad_24m": true,
+   "je_skutecny_investor_predbezne": true,
+   "tiket_deklarovany": true,
+   "fond_s_typem_a_datem": true,
+   "fond_castka_uvedena": true,
+   "kontrolni_negativni_pripad": false
+  },
+  {
+   "id": 15,
+   "nazev": "i&i Biotech Fund",
+   "dalsi_nazvy": [
+    "i&i Bio"
+   ],
+   "kategorie": "VC",
+   "typ_osoby": "PO",
+   "skupina_relevance": "1",
+   "subjekt_text": "i&i Biotech Fund",
+   "skupina_text": "1",
+   "investice_text": "Theorema, pre-seed, kolo 70 mil. Kč (v newsletteru jako „i&i Bio“)",
+   "datum_zdroj_text": "CC newsletter 1. 4. 2026",
+   "fond_text": "nezveřejněno",
+   "tiket_text": "nezveřejněno",
+   "stav_text": "A[42]",
+   "stav_aktivity": "aktivni",
+   "stupen": "A",
+   "poznamka_stupne": null,
+   "ucasti": [
+    {
+     "kolo_id": "K18",
+     "role": null,
+     "podil_stav": "nezverejneno",
+     "primarni_doklad": true,
+     "zdroj_text": "CC newsletter 1. 4. 2026",
+     "datum_publikace": "2026-04-01",
+     "zdroje": [
+      42
+     ],
+     "poznamka": "V newsletteru jako „i&i Bio“."
+    }
+   ],
+   "udalosti": [],
+   "fondy": [
+    {
+     "nazev": null,
+     "hodnoty": [
+      {
+       "text": null,
+       "min": null,
+       "max": null,
+       "mena": null,
+       "typ_castky": null,
+       "rozhodne_datum": null,
+       "stav_hodnoty": "nezverejneno",
+       "stupen_pole": null,
+       "zdroje": []
+      }
+     ]
+    }
+   ],
+   "tiket": {
+    "text": null,
+    "min": null,
+    "max": null,
+    "mena": null,
+    "typ_castky": null,
+    "rozhodne_datum": null,
+    "stav_hodnoty": "nezverejneno",
+    "stupen_pole": null,
+    "zdroje": []
+   },
+   "opravy_7_2": [],
+   "ma_primarni_doklad_24m": true,
+   "je_skutecny_investor_predbezne": true,
+   "tiket_deklarovany": false,
+   "fond_s_typem_a_datem": false,
+   "fond_castka_uvedena": false,
+   "kontrolni_negativni_pripad": false
+  },
+  {
+   "id": 16,
+   "nazev": "Reflex Capital",
+   "dalsi_nazvy": [],
+   "kategorie": "VC",
+   "typ_osoby": "PO",
+   "skupina_relevance": "1",
+   "subjekt_text": "Reflex Capital",
+   "skupina_text": "1",
+   "investice_text": "Merchantee, ~1,8 mil. EUR (lead)[43][44]",
+   "datum_zdroj_text": "Lupa 9. 6. 2026; CFOtech 15. 6. 2026",
+   "fond_text": "Fond III: uzavřen na 22 mil. EUR (~540 mil. Kč; původní cíl 20 mil. EUR), CC 22. 12. 2023[68]",
+   "tiket_text": "~1 mil. EUR, výjimečně ~2 mil. EUR (CC 22. 12. 2023)[68]",
+   "stav_text": "A",
+   "stav_aktivity": "aktivni",
+   "stupen": "A",
+   "poznamka_stupne": null,
+   "ucasti": [
+    {
+     "kolo_id": "K19",
+     "role": "lead",
+     "podil_stav": "nezverejneno",
+     "primarni_doklad": true,
+     "zdroj_text": "Lupa 9. 6. 2026; CFOtech 15. 6. 2026",
+     "datum_publikace": "2026-06-09",
+     "zdroje": [
+      43,
+      44
+     ]
+    }
+   ],
+   "udalosti": [],
+   "fondy": [
+    {
+     "nazev": "Fond III",
+     "hodnoty": [
+      {
+       "text": "uzavřen na 22 mil. EUR (~540 mil. Kč)",
+       "min": 22000000,
+       "max": null,
+       "mena": "EUR",
+       "typ_castky": "uzavreny_fond",
+       "rozhodne_datum": "2023-12-22",
+       "stav_hodnoty": "overeno",
+       "stupen_pole": null,
+       "zdroje": [
+        68
+       ]
+      },
+      {
+       "text": "původní cíl 20 mil. EUR",
+       "min": 20000000,
+       "max": null,
+       "mena": "EUR",
+       "typ_castky": "cil",
+       "rozhodne_datum": "2023-12-22",
+       "stav_hodnoty": "overeno",
+       "stupen_pole": null,
+       "zdroje": [
+        68
+       ]
+      }
+     ]
+    }
+   ],
+   "tiket": {
+    "text": "~1 mil. EUR, výjimečně ~2 mil. EUR",
+    "min": 1000000,
+    "max": 2000000,
+    "mena": "EUR",
+    "typ_castky": null,
+    "rozhodne_datum": "2023-12-22",
+    "stav_hodnoty": "overeno",
+    "stupen_pole": "samodeklarovano",
+    "zdroje": [
+     68
+    ]
+   },
+   "opravy_7_2": [
+    "Doplněné zdroje (13. 10. 2026): Reflex fond a tiket [68]; zdroj upřesnil typ částky: fond byl uzavřen na 22 mil. EUR."
+   ],
+   "ma_primarni_doklad_24m": true,
+   "je_skutecny_investor_predbezne": true,
+   "tiket_deklarovany": true,
+   "fond_s_typem_a_datem": true,
+   "fond_castka_uvedena": true,
+   "kontrolni_negativni_pripad": false
+  },
+  {
+   "id": 17,
+   "nazev": "Lighthouse Ventures",
+   "dalsi_nazvy": [],
+   "kategorie": "VC",
+   "typ_osoby": "PO",
+   "skupina_relevance": "1",
+   "subjekt_text": "Lighthouse Ventures",
+   "skupina_text": "1",
+   "investice_text": "Merchantee, kolo ~1,8 mil. EUR (koinvestor)[43]",
+   "datum_zdroj_text": "CFOtech 15. 6. 2026",
+   "fond_text": "nezveřejněno",
+   "tiket_text": "nezveřejněno",
+   "stav_text": "A",
+   "stav_aktivity": "aktivni",
+   "stupen": "A",
+   "poznamka_stupne": null,
+   "ucasti": [
+    {
+     "kolo_id": "K19",
+     "role": "koinvestor",
+     "podil_stav": "nezverejneno",
+     "primarni_doklad": true,
+     "zdroj_text": "CFOtech 15. 6. 2026",
+     "datum_publikace": "2026-06-15",
+     "zdroje": [
+      43
+     ]
+    }
+   ],
+   "udalosti": [],
+   "fondy": [
+    {
+     "nazev": null,
+     "hodnoty": [
+      {
+       "text": null,
+       "min": null,
+       "max": null,
+       "mena": null,
+       "typ_castky": null,
+       "rozhodne_datum": null,
+       "stav_hodnoty": "nezverejneno",
+       "stupen_pole": null,
+       "zdroje": []
+      }
+     ]
+    }
+   ],
+   "tiket": {
+    "text": null,
+    "min": null,
+    "max": null,
+    "mena": null,
+    "typ_castky": null,
+    "rozhodne_datum": null,
+    "stav_hodnoty": "nezverejneno",
+    "stupen_pole": null,
+    "zdroje": []
+   },
+   "opravy_7_2": [],
+   "ma_primarni_doklad_24m": true,
+   "je_skutecny_investor_predbezne": true,
+   "tiket_deklarovany": false,
+   "fond_s_typem_a_datem": false,
+   "fond_castka_uvedena": false,
+   "kontrolni_negativni_pripad": false
+  },
+  {
+   "id": 18,
+   "nazev": "Orbit Capital",
+   "dalsi_nazvy": [],
+   "kategorie": "VC",
+   "typ_osoby": "PO",
+   "skupina_relevance": "1",
+   "subjekt_text": "Orbit Capital",
+   "skupina_text": "1",
+   "investice_text": "Jutro Medical (PL), 24 mil. EUR[30]",
+   "datum_zdroj_text": "CC 2. 1. 2026",
+   "fond_text": "growth: „scaling to EUR 200 mil.“ (CVCA)[5]",
+   "tiket_text": "6–15 mil. EUR (CVCA)[5]",
+   "stav_text": "A",
+   "stav_aktivity": "aktivni",
+   "stupen": "A",
+   "poznamka_stupne": null,
+   "ucasti": [
+    {
+     "kolo_id": "K03",
+     "role": null,
+     "podil_stav": "nezverejneno",
+     "primarni_doklad": true,
+     "zdroj_text": "CC 2. 1. 2026",
+     "datum_publikace": "2026-01-02",
+     "zdroje": [
+      30
+     ]
+    }
+   ],
+   "udalosti": [],
+   "fondy": [
+    {
+     "nazev": "growth",
+     "hodnoty": [
+      {
+       "text": "„scaling to EUR 200 mil.“ (CVCA)",
+       "min": null,
+       "max": 200000000,
+       "mena": "EUR",
+       "typ_castky": "cil",
+       "rozhodne_datum": null,
+       "stav_hodnoty": "overeno",
+       "stupen_pole": "samodeklarovano",
+       "zdroje": [
+        5
+       ]
+      }
+     ],
+     "poznamka": "Profil CVCA bez data."
+    }
+   ],
+   "tiket": {
+    "text": "6–15 mil. EUR (CVCA)",
+    "min": 6000000,
+    "max": 15000000,
+    "mena": "EUR",
+    "typ_castky": null,
+    "rozhodne_datum": null,
+    "stav_hodnoty": "overeno",
+    "stupen_pole": "samodeklarovano",
+    "zdroje": [
+     5
+    ]
+   },
+   "opravy_7_2": [
+    "Orbit a Soulmates: pomocná rešerše je vedla jako „bez aktivity“, ale v přehledech CzechCrunch mají doklady z prosince 2025, února a září 2026. [15][19]"
+   ],
+   "ma_primarni_doklad_24m": true,
+   "je_skutecny_investor_predbezne": true,
+   "tiket_deklarovany": true,
+   "fond_s_typem_a_datem": false,
+   "fond_castka_uvedena": true,
+   "kontrolni_negativni_pripad": false
+  },
+  {
+   "id": 19,
+   "nazev": "Soulmates Ventures",
+   "dalsi_nazvy": [],
+   "kategorie": "VC",
+   "typ_osoby": "PO",
+   "skupina_relevance": "1",
+   "subjekt_text": "Soulmates Ventures",
+   "skupina_text": "1",
+   "investice_text": "FluoSphera (CH), 29 mil. Kč; Rightcharge, kolo 14 mil. Kč (lead)",
+   "datum_zdroj_text": "CC 2. 2. 2026; fxstreet 3. 9. 2026",
+   "fond_text": "nezveřejněno",
+   "tiket_text": "nezveřejněno",
+   "stav_text": "A[15][19]",
+   "stav_aktivity": "aktivni",
+   "stupen": "A",
+   "poznamka_stupne": null,
+   "ucasti": [
+    {
+     "kolo_id": "K20",
+     "role": null,
+     "podil_stav": "nezverejneno",
+     "primarni_doklad": true,
+     "zdroj_text": "CC 2. 2. 2026",
+     "datum_publikace": "2026-02-02",
+     "zdroje": [
+      15
+     ]
+    },
+    {
+     "kolo_id": "K06",
+     "role": "lead",
+     "podil_stav": "nezverejneno",
+     "primarni_doklad": true,
+     "zdroj_text": "fxstreet 3. 9. 2026",
+     "datum_publikace": "2026-09-03",
+     "zdroje": [
+      19
+     ]
+    }
+   ],
+   "udalosti": [],
+   "fondy": [
+    {
+     "nazev": null,
+     "hodnoty": [
+      {
+       "text": null,
+       "min": null,
+       "max": null,
+       "mena": null,
+       "typ_castky": null,
+       "rozhodne_datum": null,
+       "stav_hodnoty": "nezverejneno",
+       "stupen_pole": null,
+       "zdroje": []
+      }
+     ]
+    }
+   ],
+   "tiket": {
+    "text": null,
+    "min": null,
+    "max": null,
+    "mena": null,
+    "typ_castky": null,
+    "rozhodne_datum": null,
+    "stav_hodnoty": "nezverejneno",
+    "stupen_pole": null,
+    "zdroje": []
+   },
+   "opravy_7_2": [
+    "Orbit a Soulmates: pomocná rešerše je vedla jako „bez aktivity“, ale v přehledech CzechCrunch mají doklady z prosince 2025, února a září 2026. [15][19]"
+   ],
+   "ma_primarni_doklad_24m": true,
+   "je_skutecny_investor_predbezne": true,
+   "tiket_deklarovany": false,
+   "fond_s_typem_a_datem": false,
+   "fond_castka_uvedena": false,
+   "kontrolni_negativni_pripad": false
+  },
+  {
+   "id": 20,
+   "nazev": "Index Ventures",
+   "dalsi_nazvy": [],
+   "kategorie": "VC",
+   "typ_osoby": "PO",
+   "skupina_relevance": "2b",
+   "subjekt_text": "Index Ventures",
+   "skupina_text": "2b",
+   "investice_text": "Duvo.ai, pre-seed+seed, kolo 16,5 mil. USD; eNOugh, kolo 2,7 mil. USD[30]",
+   "datum_zdroj_text": "CC 2. 1. 2026",
+   "fond_text": "mimo rozsah pilotu",
+   "tiket_text": "nezveřejněno",
+   "stav_text": "A (relevance 2b doložena: obě kola jsou v přehledu dealů českých zakladatelů; zda jde o 2a, se neověřovalo, na zařazení to nemá vliv)",
+   "stav_aktivity": "aktivni",
+   "stupen": "A",
+   "poznamka_stupne": "Relevance 2b doložena: obě kola jsou v přehledu dealů českých zakladatelů; zda jde o 2a, se neověřovalo, na zařazení to nemá vliv.",
+   "ucasti": [
+    {
+     "kolo_id": "K01",
+     "role": null,
+     "podil_stav": "nezverejneno",
+     "primarni_doklad": true,
+     "zdroj_text": "CC 2. 1. 2026",
+     "datum_publikace": "2026-01-02",
+     "zdroje": [
+      30
+     ]
+    },
+    {
+     "kolo_id": "K21",
+     "role": null,
+     "podil_stav": "nezverejneno",
+     "primarni_doklad": true,
+     "zdroj_text": "CC 2. 1. 2026",
+     "datum_publikace": "2026-01-02",
+     "zdroje": [
+      30
+     ]
+    }
+   ],
+   "udalosti": [],
+   "fondy": [
+    {
+     "nazev": null,
+     "hodnoty": [
+      {
+       "text": "mimo rozsah pilotu",
+       "min": null,
+       "max": null,
+       "mena": null,
+       "typ_castky": null,
+       "rozhodne_datum": null,
+       "stav_hodnoty": "mimo_rozsah",
+       "stupen_pole": null,
+       "zdroje": []
+      }
+     ]
+    }
+   ],
+   "tiket": {
+    "text": null,
+    "min": null,
+    "max": null,
+    "mena": null,
+    "typ_castky": null,
+    "rozhodne_datum": null,
+    "stav_hodnoty": "nezverejneno",
+    "stupen_pole": null,
+    "zdroje": []
+   },
+   "opravy_7_2": [
+    "Index Ventures (2b): relevance je doložena tím, že CzechCrunch obě kola řadí mezi dealy českých zakladatelů. Sídlo firem rozhoduje jen o tom, zda jde o 2a nebo 2b, na zařazení nemá vliv."
+   ],
+   "ma_primarni_doklad_24m": true,
+   "je_skutecny_investor_predbezne": true,
+   "tiket_deklarovany": false,
+   "fond_s_typem_a_datem": false,
+   "fond_castka_uvedena": false,
+   "kontrolni_negativni_pripad": false
+  },
+  {
+   "id": 21,
+   "nazev": "United Founders",
+   "dalsi_nazvy": [],
+   "kategorie": "VC",
+   "typ_osoby": "PO",
+   "skupina_relevance": "1",
+   "subjekt_text": "United Founders",
+   "skupina_text": "1",
+   "investice_text": "Wonderful.ai (s Index Ventures a Bessemer) a EveryHealth (s Taimi), první oznámené investice fondu; částky kol nezveřejněny[52]",
+   "datum_zdroj_text": "CC 4. 11. 2025",
+   "fond_text": "cíl 80 mil. EUR, závazky 17 mil. EUR (Rockaway 15, tým 2), CC 4. 11. 2025[52][45]",
+   "tiket_text": "100 tis.–1 mil. EUR[46]",
+   "stav_text": "A",
+   "stav_aktivity": "aktivni",
+   "stupen": "A",
+   "poznamka_stupne": null,
+   "ucasti": [
+    {
+     "kolo_id": "K22",
+     "role": null,
+     "podil_stav": "nezverejneno",
+     "primarni_doklad": true,
+     "zdroj_text": "CC 4. 11. 2025",
+     "datum_publikace": "2025-11-04",
+     "zdroje": [
+      52
+     ]
+    },
+    {
+     "kolo_id": "K23",
+     "role": null,
+     "podil_stav": "nezverejneno",
+     "primarni_doklad": true,
+     "zdroj_text": "CC 4. 11. 2025",
+     "datum_publikace": "2025-11-04",
+     "zdroje": [
+      52
+     ]
+    }
+   ],
+   "udalosti": [],
+   "fondy": [
+    {
+     "nazev": null,
+     "hodnoty": [
+      {
+       "text": "cíl 80 mil. EUR",
+       "min": 80000000,
+       "max": null,
+       "mena": "EUR",
+       "typ_castky": "cil",
+       "rozhodne_datum": "2025-11-04",
+       "stav_hodnoty": "overeno",
+       "stupen_pole": null,
+       "zdroje": [
+        52,
+        45
+       ]
+      },
+      {
+       "text": "závazky 17 mil. EUR (Rockaway 15, tým 2)",
+       "min": 17000000,
+       "max": null,
+       "mena": "EUR",
+       "typ_castky": "zavazky",
+       "rozhodne_datum": "2025-11-04",
+       "stav_hodnoty": "overeno",
+       "stupen_pole": null,
+       "zdroje": [
+        52,
+        45
+       ]
+      }
+     ]
+    }
+   ],
+   "tiket": {
+    "text": "100 tis.–1 mil. EUR",
+    "min": 100000,
+    "max": 1000000,
+    "mena": "EUR",
+    "typ_castky": null,
+    "rozhodne_datum": null,
+    "stav_hodnoty": "overeno",
+    "stupen_pole": "samodeklarovano",
+    "zdroje": [
+     46
+    ]
+   },
+   "opravy_7_2": [
+    "United Founders: stupeň A (13. 10. 2026). Primární článek CzechCrunch ze 4. 11. 2025 [52] jmenuje obě investice: Wonderful.ai a EveryHealth. Údaj o AMI Labs (jen agregátor) se nepoužívá."
+   ],
+   "ma_primarni_doklad_24m": true,
+   "je_skutecny_investor_predbezne": true,
+   "tiket_deklarovany": true,
+   "fond_s_typem_a_datem": true,
+   "fond_castka_uvedena": true,
+   "kontrolni_negativni_pripad": false
+  },
+  {
+   "id": 22,
+   "nazev": "Fond Naše Česko",
+   "dalsi_nazvy": [],
+   "kategorie": "nejasny",
+   "typ_osoby": "PO",
+   "skupina_relevance": "1",
+   "subjekt_text": "Fond Naše Česko",
+   "skupina_text": "1",
+   "investice_text": "ValkaAI, pre-seed, kolo 12 mil. EUR",
+   "datum_zdroj_text": "TZ Rockaway 24. 2. 2026",
+   "fond_text": "nezveřejněno",
+   "tiket_text": "nezveřejněno",
+   "stav_text": "B (typ nejasný)[17]",
+   "stav_aktivity": "aktivni",
+   "stupen": "B",
+   "poznamka_stupne": "Typ nejasný.",
+   "ucasti": [
+    {
+     "kolo_id": "K08",
+     "role": null,
+     "podil_stav": "nezverejneno",
+     "primarni_doklad": true,
+     "zdroj_text": "TZ Rockaway 24. 2. 2026",
+     "datum_publikace": "2026-02-24",
+     "zdroje": [
+      17
+     ]
+    }
+   ],
+   "udalosti": [],
+   "fondy": [
+    {
+     "nazev": null,
+     "hodnoty": [
+      {
+       "text": null,
+       "min": null,
+       "max": null,
+       "mena": null,
+       "typ_castky": null,
+       "rozhodne_datum": null,
+       "stav_hodnoty": "nezverejneno",
+       "stupen_pole": null,
+       "zdroje": []
+      }
+     ]
+    }
+   ],
+   "tiket": {
+    "text": null,
+    "min": null,
+    "max": null,
+    "mena": null,
+    "typ_castky": null,
+    "rozhodne_datum": null,
+    "stav_hodnoty": "nezverejneno",
+    "stupen_pole": null,
+    "zdroje": []
+   },
+   "opravy_7_2": [],
+   "ma_primarni_doklad_24m": true,
+   "je_skutecny_investor_predbezne": true,
+   "tiket_deklarovany": false,
+   "fond_s_typem_a_datem": null,
+   "fond_castka_uvedena": null,
+   "kontrolni_negativni_pripad": false
+  },
+  {
+   "id": 23,
+   "nazev": "JIC Ventures",
+   "dalsi_nazvy": [
+    "JIC"
+   ],
+   "kategorie": "VC",
+   "typ_osoby": "PO",
+   "skupina_relevance": "1",
+   "subjekt_text": "JIC Ventures",
+   "skupina_text": "1",
+   "investice_text": "Aiviro, 450 tis. EUR[30]",
+   "datum_zdroj_text": "CC 2. 1. 2026",
+   "fond_text": "cíl 400 mil. Kč, ke spuštění 7. 4. 2026 alokováno 320 mil. Kč[47][48]",
+   "tiket_text": "do 1 mil. EUR, pre-seed/seed[48][49]",
+   "stav_text": "B (investice předchází startu fondu, entitu nutno ověřit)",
+   "stav_aktivity": "aktivni",
+   "stupen": "B",
+   "poznamka_stupne": "Investice předchází startu fondu, entitu nutno ověřit.",
+   "ucasti": [
+    {
+     "kolo_id": "K24",
+     "role": null,
+     "podil_stav": "nezverejneno",
+     "primarni_doklad": true,
+     "zdroj_text": "CC 2. 1. 2026",
+     "datum_publikace": "2026-01-02",
+     "zdroje": [
+      30
+     ]
+    }
+   ],
+   "udalosti": [],
+   "fondy": [
+    {
+     "nazev": null,
+     "hodnoty": [
+      {
+       "text": "cíl 400 mil. Kč",
+       "min": 400000000,
+       "max": null,
+       "mena": "CZK",
+       "typ_castky": "cil",
+       "rozhodne_datum": null,
+       "stav_hodnoty": "overeno",
+       "stupen_pole": null,
+       "zdroje": [
+        47,
+        48
+       ]
+      },
+      {
+       "text": "ke spuštění 7. 4. 2026 alokováno 320 mil. Kč",
+       "min": 320000000,
+       "max": null,
+       "mena": "CZK",
+       "typ_castky": "alokovano",
+       "rozhodne_datum": "2026-04-07",
+       "stav_hodnoty": "overeno",
+       "stupen_pole": null,
+       "zdroje": [
+        47,
+        48
+       ]
+      }
+     ]
+    }
+   ],
+   "tiket": {
+    "text": "do 1 mil. EUR, pre-seed/seed",
+    "min": null,
+    "max": 1000000,
+    "mena": "EUR",
+    "typ_castky": null,
+    "rozhodne_datum": null,
+    "stav_hodnoty": "overeno",
+    "stupen_pole": "samodeklarovano",
+    "zdroje": [
+     48,
+     49
+    ]
+   },
+   "opravy_7_2": [],
+   "ma_primarni_doklad_24m": true,
+   "je_skutecny_investor_predbezne": true,
+   "tiket_deklarovany": true,
+   "fond_s_typem_a_datem": null,
+   "fond_castka_uvedena": null,
+   "kontrolni_negativni_pripad": false
+  },
+  {
+   "id": 24,
+   "nazev": "Crescendo Ventures",
+   "dalsi_nazvy": [],
+   "kategorie": "VC",
+   "typ_osoby": "PO",
+   "skupina_relevance": "1",
+   "subjekt_text": "Crescendo Ventures",
+   "skupina_text": "1",
+   "investice_text": "Aiviro, kolo 450 tis. EUR (s JIC Ventures)[30]",
+   "datum_zdroj_text": "CC 2. 1. 2026",
+   "fond_text": "nezveřejněno",
+   "tiket_text": "nezveřejněno",
+   "stav_text": "B (identita: ověřit vazbu na Crescendo Equity Partners, který je v témže newsletteru uveden jako kupec Phonexie)",
+   "stav_aktivity": "aktivni",
+   "stupen": "B",
+   "poznamka_stupne": "Identita: ověřit vazbu na Crescendo Equity Partners, který je v témže newsletteru uveden jako kupec Phonexie.",
+   "ucasti": [
+    {
+     "kolo_id": "K24",
+     "role": null,
+     "podil_stav": "nezverejneno",
+     "primarni_doklad": true,
+     "zdroj_text": "CC 2. 1. 2026",
+     "datum_publikace": "2026-01-02",
+     "zdroje": [
+      30
+     ],
+     "poznamka": "s JIC Ventures"
+    }
+   ],
+   "udalosti": [],
+   "fondy": [
+    {
+     "nazev": null,
+     "hodnoty": [
+      {
+       "text": null,
+       "min": null,
+       "max": null,
+       "mena": null,
+       "typ_castky": null,
+       "rozhodne_datum": null,
+       "stav_hodnoty": "nezverejneno",
+       "stupen_pole": null,
+       "zdroje": []
+      }
+     ]
+    }
+   ],
+   "tiket": {
+    "text": null,
+    "min": null,
+    "max": null,
+    "mena": null,
+    "typ_castky": null,
+    "rozhodne_datum": null,
+    "stav_hodnoty": "nezverejneno",
+    "stupen_pole": null,
+    "zdroje": []
+   },
+   "opravy_7_2": [
+    "Doplněné zdroje (13. 10. 2026): Crescendo Ventures (newsletter CC 2. 1. 2026 = zdroj [30])."
+   ],
+   "ma_primarni_doklad_24m": true,
+   "je_skutecny_investor_predbezne": true,
+   "tiket_deklarovany": false,
+   "fond_s_typem_a_datem": null,
+   "fond_castka_uvedena": null,
+   "kontrolni_negativni_pripad": false
+  },
+  {
+   "id": 25,
+   "nazev": "Miton",
+   "dalsi_nazvy": [],
+   "kategorie": "holding_CVC",
+   "typ_osoby": "PO",
+   "skupina_relevance": "1",
+   "subjekt_text": "Miton",
+   "skupina_text": "1",
+   "investice_text": "Whisper, 300 tis. EUR[50]",
+   "datum_zdroj_text": "CC 2. 2. 2026",
+   "fond_text": "nezveřejněno",
+   "tiket_text": "nezveřejněno",
+   "stav_text": "B (typ holding/VC)",
+   "stav_aktivity": "aktivni",
+   "stupen": "B",
+   "poznamka_stupne": "Typ holding/VC; holding s opakovanými minoritními investicemi (kap. 2.2).",
+   "ucasti": [
+    {
+     "kolo_id": "K25",
+     "role": null,
+     "podil_stav": "nezverejneno",
+     "primarni_doklad": true,
+     "zdroj_text": "CC 2. 2. 2026",
+     "datum_publikace": "2026-02-02",
+     "zdroje": [
+      50
+     ]
+    }
+   ],
+   "udalosti": [],
+   "fondy": [
+    {
+     "nazev": null,
+     "hodnoty": [
+      {
+       "text": null,
+       "min": null,
+       "max": null,
+       "mena": null,
+       "typ_castky": null,
+       "rozhodne_datum": null,
+       "stav_hodnoty": "nezverejneno",
+       "stupen_pole": null,
+       "zdroje": []
+      }
+     ]
+    }
+   ],
+   "tiket": {
+    "text": null,
+    "min": null,
+    "max": null,
+    "mena": null,
+    "typ_castky": null,
+    "rozhodne_datum": null,
+    "stav_hodnoty": "nezverejneno",
+    "stupen_pole": null,
+    "zdroje": []
+   },
+   "opravy_7_2": [],
+   "ma_primarni_doklad_24m": true,
+   "je_skutecny_investor_predbezne": true,
+   "tiket_deklarovany": false,
+   "fond_s_typem_a_datem": null,
+   "fond_castka_uvedena": null,
+   "kontrolni_negativni_pripad": false
+  },
+  {
+   "id": 26,
+   "nazev": "Presto Ventures",
+   "dalsi_nazvy": [],
+   "kategorie": "VC",
+   "typ_osoby": "PO",
+   "skupina_relevance": "1",
+   "subjekt_text": "Presto Ventures",
+   "skupina_text": "1",
+   "investice_text": "Ready Player Me je exit (prosinec 2025), ne nová investice;[30] Choice jen agregátor",
+   "datum_zdroj_text": "CC 2. 1. 2026",
+   "fond_text": "—",
+   "tiket_text": "—",
+   "stav_text": "Kandidát",
+   "stav_aktivity": "kandidat",
+   "stupen": "C",
+   "poznamka_stupne": "V posledních 24 měsících bez primárního dokladu o nové investici.",
+   "ucasti": [],
+   "udalosti": [
+    {
+     "typ_udalosti": "exit",
+     "firma": "Ready Player Me",
+     "datum_udalosti": "2025-12",
+     "datum_publikace": "2026-01-02",
+     "primarni_doklad": false,
+     "zdroj_text": "CC 2. 1. 2026",
+     "zdroje": [
+      30
+     ]
+    },
+    {
+     "typ_udalosti": "jen_agregator",
+     "firma": "Choice",
+     "primarni_doklad": false,
+     "zdroj_text": "jen agregátor",
+     "zdroje": []
+    }
+   ],
+   "fondy": [
+    {
+     "nazev": null,
+     "hodnoty": [
+      {
+       "text": null,
+       "min": null,
+       "max": null,
+       "mena": null,
+       "typ_castky": null,
+       "rozhodne_datum": null,
+       "stav_hodnoty": "neuvedeno",
+       "stupen_pole": null,
+       "zdroje": []
+      }
+     ]
+    }
+   ],
+   "tiket": {
+    "text": null,
+    "min": null,
+    "max": null,
+    "mena": null,
+    "typ_castky": null,
+    "rozhodne_datum": null,
+    "stav_hodnoty": "neuvedeno",
+    "stupen_pole": null,
+    "zdroje": []
+   },
+   "opravy_7_2": [
+    "Presto Ventures nemá v posledních 24 měsících primární doklad o nové investici, a proto je kandidátem."
+   ],
+   "ma_primarni_doklad_24m": false,
+   "je_skutecny_investor_predbezne": null,
+   "tiket_deklarovany": false,
+   "fond_s_typem_a_datem": null,
+   "fond_castka_uvedena": null,
+   "kontrolni_negativni_pripad": false
+  },
+  {
+   "id": 27,
+   "nazev": "Depo Ventures",
+   "dalsi_nazvy": [
+    "DEPO"
+   ],
+   "kategorie": "VC",
+   "typ_osoby": "PO",
+   "skupina_relevance": "1",
+   "subjekt_text": "Depo Ventures",
+   "skupina_text": "1",
+   "investice_text": "WanderWallet, pre-seed, kolo 10,5 mil. Kč (s BD Partners)[42]",
+   "datum_zdroj_text": "CC newsletter 1. 4. 2026",
+   "fond_text": "5,5 mil. EUR (CVCA, 2023)[5]",
+   "tiket_text": "50–300 tis. EUR[5]",
+   "stav_text": "A",
+   "stav_aktivity": "aktivni",
+   "stupen": "A",
+   "poznamka_stupne": null,
+   "ucasti": [
+    {
+     "kolo_id": "K10",
+     "role": null,
+     "podil_stav": "nezverejneno",
+     "primarni_doklad": true,
+     "zdroj_text": "CC newsletter 1. 4. 2026",
+     "datum_publikace": "2026-04-01",
+     "zdroje": [
+      42
+     ],
+     "poznamka": "s BD Partners"
+    }
+   ],
+   "udalosti": [],
+   "fondy": [
+    {
+     "nazev": null,
+     "hodnoty": [
+      {
+       "text": "5,5 mil. EUR (CVCA, 2023)",
+       "min": 5500000,
+       "max": null,
+       "mena": "EUR",
+       "typ_castky": "neuvedeno",
+       "rozhodne_datum": "2023",
+       "stav_hodnoty": "overeno",
+       "stupen_pole": "samodeklarovano",
+       "zdroje": [
+        5
+       ]
+      }
+     ]
+    }
+   ],
+   "tiket": {
+    "text": "50–300 tis. EUR",
+    "min": 50000,
+    "max": 300000,
+    "mena": "EUR",
+    "typ_castky": null,
+    "rozhodne_datum": null,
+    "stav_hodnoty": "overeno",
+    "stupen_pole": "samodeklarovano",
+    "zdroje": [
+     5
+    ]
+   },
+   "opravy_7_2": [
+    "DEPO: závazek LP neplatí jako doklad. Primární doklad o investici do firmy ale existuje: newsletter CzechCrunch z 1. 4. 2026 uvádí Depo Ventures mezi investory WanderWallet. [42] Původní hodnocení „jen agregátor“ bylo chybné, záznam má stupeň A. Opraveno při kontrole zdrojů 13. 10. 2026."
+   ],
+   "ma_primarni_doklad_24m": true,
+   "je_skutecny_investor_predbezne": true,
+   "tiket_deklarovany": true,
+   "fond_s_typem_a_datem": false,
+   "fond_castka_uvedena": true,
+   "kontrolni_negativni_pripad": false
+  },
+  {
+   "id": 28,
+   "nazev": "Nation 1",
+   "dalsi_nazvy": [],
+   "kategorie": "VC",
+   "typ_osoby": "PO",
+   "skupina_relevance": "1",
+   "subjekt_text": "Nation 1",
+   "skupina_text": "1",
+   "investice_text": "Nic v posledních 24 měsících",
+   "datum_zdroj_text": "—",
+   "fond_text": "35 mil. EUR (CVCA, 2020)[5]",
+   "tiket_text": "50 tis.–1,5 mil. EUR[5]",
+   "stav_text": "Kandidát / historický",
+   "stav_aktivity": "kandidat",
+   "stupen": "C",
+   "poznamka_stupne": "Kandidát / historický: žádná doložená investice v posledních 24 měsících.",
+   "ucasti": [],
+   "udalosti": [],
+   "fondy": [
+    {
+     "nazev": null,
+     "hodnoty": [
+      {
+       "text": "35 mil. EUR (CVCA, 2020)",
+       "min": 35000000,
+       "max": null,
+       "mena": "EUR",
+       "typ_castky": "neuvedeno",
+       "rozhodne_datum": "2020",
+       "stav_hodnoty": "overeno",
+       "stupen_pole": "samodeklarovano",
+       "zdroje": [
+        5
+       ]
+      }
+     ]
+    }
+   ],
+   "tiket": {
+    "text": "50 tis.–1,5 mil. EUR",
+    "min": 50000,
+    "max": 1500000,
+    "mena": "EUR",
+    "typ_castky": null,
+    "rozhodne_datum": null,
+    "stav_hodnoty": "overeno",
+    "stupen_pole": "samodeklarovano",
+    "zdroje": [
+     5
+    ]
+   },
+   "opravy_7_2": [],
+   "ma_primarni_doklad_24m": false,
+   "je_skutecny_investor_predbezne": null,
+   "tiket_deklarovany": true,
+   "fond_s_typem_a_datem": null,
+   "fond_castka_uvedena": null,
+   "kontrolni_negativni_pripad": false
+  },
+  {
+   "id": 29,
+   "nazev": "IP Lab Ventures",
+   "dalsi_nazvy": [
+    "IP Lab Ventures Fund I"
+   ],
+   "kategorie": "VC",
+   "typ_osoby": "PO",
+   "skupina_relevance": "1",
+   "subjekt_text": "IP Lab Ventures",
+   "skupina_text": "1",
+   "investice_text": "Jen závazek LP od EIF ~27 mil. EUR, cíl >50 mil. EUR[51]",
+   "datum_zdroj_text": "EIF 24. 9. 2026",
+   "fond_text": "cíl >50 mil. EUR",
+   "tiket_text": "—",
+   "stav_text": "Watchlist",
+   "stav_aktivity": "watchlist",
+   "stupen": null,
+   "poznamka_stupne": "Závazek LP do fondu ≠ investice do firmy (kap. 2.2).",
+   "ucasti": [],
+   "udalosti": [
+    {
+     "typ_udalosti": "zavazek_LP",
+     "firma": null,
+     "castka": 27000000,
+     "mena": "EUR",
+     "datum_publikace": "2026-09-24",
+     "primarni_doklad": false,
+     "zdroj_text": "EIF 24. 9. 2026 – závazek LP od EIF ~27 mil. EUR",
+     "zdroje": [
+      51
+     ]
+    }
+   ],
+   "fondy": [
+    {
+     "nazev": "IP Lab Ventures Fund I",
+     "hodnoty": [
+      {
+       "text": "cíl >50 mil. EUR",
+       "min": 50000000,
+       "max": null,
+       "mena": "EUR",
+       "typ_castky": "cil",
+       "rozhodne_datum": null,
+       "stav_hodnoty": "overeno",
+       "stupen_pole": null,
+       "zdroje": [
+        51
+       ]
+      },
+      {
+       "text": "~27 mil. EUR od EIF",
+       "min": 27000000,
+       "max": null,
+       "mena": "EUR",
+       "typ_castky": "zavazek_LP",
+       "rozhodne_datum": null,
+       "stav_hodnoty": "overeno",
+       "stupen_pole": null,
+       "zdroje": [
+        51
+       ]
+      }
+     ]
+    }
+   ],
+   "tiket": {
+    "text": null,
+    "min": null,
+    "max": null,
+    "mena": null,
+    "typ_castky": null,
+    "rozhodne_datum": null,
+    "stav_hodnoty": "neuvedeno",
+    "stupen_pole": null,
+    "zdroje": []
+   },
+   "opravy_7_2": [],
+   "ma_primarni_doklad_24m": false,
+   "je_skutecny_investor_predbezne": null,
+   "tiket_deklarovany": false,
+   "fond_s_typem_a_datem": null,
+   "fond_castka_uvedena": null,
+   "kontrolni_negativni_pripad": false
+  },
+  {
+   "id": 30,
+   "nazev": "HitHit",
+   "dalsi_nazvy": [],
+   "kategorie": "neinvestor",
+   "typ_osoby": "PO",
+   "skupina_relevance": null,
+   "subjekt_text": "HitHit (kontrolní negativní případ)",
+   "skupina_text": "—",
+   "investice_text": "Crowdfundingová platforma uvedená v katalogu CzechStartups[9]",
+   "datum_zdroj_text": "—",
+   "fond_text": "—",
+   "tiket_text": "—",
+   "stav_text": "Vyřazen",
+   "stav_aktivity": "vyrazen",
+   "stupen": "X",
+   "poznamka_stupne": "Kontrolní negativní případ; crowdfundingová platforma, kapitál patří investorům platformy (kap. 2.2).",
+   "ucasti": [],
+   "udalosti": [],
+   "fondy": [
+    {
+     "nazev": null,
+     "hodnoty": [
+      {
+       "text": null,
+       "min": null,
+       "max": null,
+       "mena": null,
+       "typ_castky": null,
+       "rozhodne_datum": null,
+       "stav_hodnoty": "neuvedeno",
+       "stupen_pole": null,
+       "zdroje": []
+      }
+     ]
+    }
+   ],
+   "tiket": {
+    "text": null,
+    "min": null,
+    "max": null,
+    "mena": null,
+    "typ_castky": null,
+    "rozhodne_datum": null,
+    "stav_hodnoty": "neuvedeno",
+    "stupen_pole": null,
+    "zdroje": []
+   },
+   "opravy_7_2": [],
+   "ma_primarni_doklad_24m": false,
+   "je_skutecny_investor_predbezne": false,
+   "tiket_deklarovany": false,
+   "fond_s_typem_a_datem": null,
+   "fond_castka_uvedena": null,
+   "kontrolni_negativni_pripad": true,
+   "zdroje_zaznamu": [
+    9
+   ]
+  }
+ ]
+}
