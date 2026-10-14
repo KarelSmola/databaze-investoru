@@ -1,6 +1,6 @@
 # AGENTS.md – Databáze investorů (pilot ČR)
 
-Návod pro AI agenty a vývojáře, kteří na projektu pracují. Uživatelský přehled a postup nasazení je v [README.md](README.md).
+Návod pro AI agenty a vývojáře, kteří na projektu pracují. Uživatelský přehled, úplný seznam API a postup nasazení je v [README.md](README.md). `CLAUDE.md` jen načítá tento soubor – všechny pokyny patří sem, ne do `CLAUDE.md`.
 
 ## O projektu
 
@@ -25,9 +25,9 @@ npm run dev          # Vite na :5173; /api/* obsluhuje stejný router jako Verce
 npm test             # Vitest: akceptační testy bez databáze
 npm run typecheck    # tsc --noEmit (strict)
 npm run lint         # ESLint
-npm run build        # typecheck + produkční build do dist/
+npm run build        # typecheck + produkční build do dist/ (vite preview pak ukáže jen frontend, bez API)
 npm run db:migrate   # aplikuje nové soubory z db/migrations
-npm run db:seed      # idempotentní seed verze 1.1 (--force smaže i hodnocení kontrolora)
+npm run db:seed      # idempotentní seed verze 1.1; bez --force odmítne přepsat verzi s hodnoceními kontrolora
 npm run db:validate  # AT-01 až AT-17 proti Neonu
 npm run db:setup     # migrate + seed + validate
 ```
@@ -39,7 +39,8 @@ Před dokončením změny spusť `npm run typecheck && npm run lint && npm test`
 - **Frontend:** React 19 + TypeScript (strict), Vite, React Router 7, `react-markdown` + `remark-gfm`.
 - **API:** Vercel Functions v Node.js. **Jediná funkce** `api/router.ts`; `vercel.json` přepisuje `/api/<cesta>` na `/api/router?path=<cesta>`.
 - **Databáze:** Neon (PostgreSQL 17, `aws-eu-central-1`), driver `@neondatabase/serverless` (HTTP `neon()`, transakce přes `sql.transaction([...])`; seed a migrace přes `Pool`).
-- **Validace:** Zod u všech zapisujících endpointů. **Testy:** Vitest.
+- **Validace:** Zod u všech vstupů s tělem požadavku (POST, PUT, PATCH). **Testy:** Vitest.
+- **Lokální API:** plugin `lokalniApi` ve `vite.config.ts` obsluhuje `/api/*` v dev serveru stejným routerem jako Vercel, načte `DATABASE_URL` z `.env` a server načítá přes `ssrLoadModule`, takže změny v `server/` a `shared/` se projeví bez restartu. Skripty v `db/` čtou `.env` přes `db/env.ts`.
 
 ```
 Prohlížeč (src/) ──fetch /api/*──▶ api/router.ts ─▶ server/node.ts ─▶ server/router.ts ─▶ server/routes/*.ts
@@ -58,8 +59,11 @@ Prohlížeč (src/) ──fetch /api/*──▶ api/router.ts ─▶ server/node
 | `content/` | Kapitoly 0–11, TL;DR, závěr, zadání – **doslovně** z předávacího dokumentu |
 | `data/` | `pilot_v1.1.json` (Příloha A), `zdroje.json` (Příloha C) |
 | `db/` | `migrations/*.sql`, `migrate.ts`, `seed.ts`, `validate.ts`, `env.ts` |
-| `tests/` | Akceptační testy sekce 9 |
-| `_zadani_llm_outputs/` | Zadání a výstupy LLM, ze kterých aplikace vychází (jen ke čtení) |
+| `tests/` | Akceptační testy sekce 9: `data.test.ts` (AT-01–03, 11, 13–16), `metriky.test.ts` (AT-04–12), `strom.test.ts` (AT-30–42), `kalkulacka.test.ts` (AT-50–70); `pomocne.ts` načítá data. AT-17 je jen v `db/validate.ts`. |
+| `public/` | Statické soubory (favicon) |
+| `_zadani_llm_outputs/` | Zadání a výstupy LLM včetně předávacího dokumentu (jen ke čtení) |
+| `_shrnuti_jak_projekt_vznikal/` | Shrnutí postupu od zadání po aplikaci (jen ke čtení) |
+| kořen | `vercel.json` (přepisy cest, region `fra1`), `vite.config.ts`, `tsconfig.json` (jeden pro celý projekt), `eslint.config.js`, `.env.example`, `.claude/launch.json` (dev server pro Claude Code) |
 
 ## Konvence kódu
 
@@ -77,6 +81,7 @@ Prohlížeč (src/) ──fetch /api/*──▶ api/router.ts ─▶ server/node
 - **Verze 1.1 je zmrazená.** Úpravy dat záznamů jdou jen do nezmrazené verze (`POST /api/verze`) a každá změna se zapíše do `historie_zmen`. Zápis do zmrazené verze vrací 409. Hodnocení kontrolora, ruční vstupy go/no-go a varianty kalkulačky nejsou data verze a ukládají se i u zmrazené verze.
 - **Režim naslepo (FR-51).** `GET /api/kontrola/zaznamy` nesmí vrátit pole ze `SKRYTA_POLE_KONTROLY` (`shared/api.ts`) ani text prozrazující hodnocení (např. „kontrolní negativní případ“ v `subjekt_text`), dokud kontrolor záznam neohodnotí. Při přidání nového pole do `SpravceApi` zvaž, jestli nepatří mezi skrytá.
 - **Metriky** (`shared/metriky.ts`) se počítají z příznaků v datech, metriky tiketu a fondu jen ze stupně A. Test v `tests/metriky.test.ts` hlídá, že příznaky odpovídají pravidlům kap. 7.3.
+- **Výsledky kontroly** v `/api/metriky` a `/api/go-nogo` se berou od kontrolora s nejvíce hodnoceními (`vychoziKontrolor()` v `server/routes/kontrola.ts`). Teprve po ohodnocení všech záznamů se přesnost zařazení přepočítá podle kontrolora a G-1, G-2 přestanou být „předběžné“.
 - **Kalkulačka:** výchozí parametry v `shared/kalkulacka/parametry.ts` musí přesně reprodukovat čísla dokumentu (AT-50 až AT-70). Model 9.4 přebírá N, QA, řízení, právo, infrastrukturu, rezervu a údržbu z modelu 9.3.
 - **Rozhodovací strom** (`shared/strom.ts`): hraniční případy kap. 2.2 jsou v `HRANICNI_PRIPADY` a slouží jako testy AT-30 až AT-42 i jako tabulka v UI.
 - Aplikace nestahuje data z webu a nepoužívá placené zdroje (NFR-03).
@@ -87,7 +92,7 @@ Prohlížeč (src/) ──fetch /api/*──▶ api/router.ts ─▶ server/node
 
 **Změna schématu:** vytvoř nový soubor `db/migrations/000N_popis.sql` (idempotentní, `IF NOT EXISTS`). Existující migrace neupravuj – `0001_init.sql` je doslovné DDL ze sekce 6.3. Uprav `server/data.ts`, případně `db/seed.ts` a kopírování verze v `server/routes/verze.ts`, pak spusť `npm run db:migrate` a `npm run db:validate`.
 
-**Nová stránka:** komponenta v `src/pages/`, lazy import a `<Route>` v `src/App.tsx`, položka v `MENU` v `src/components/Layout.tsx`. Data načítej přes `useApi()` s parametrem `verze` z `useVerze()`.
+**Nová stránka:** komponenta v `src/pages/`, lazy import a `<Route>` v `src/App.tsx`, položka v `MENU` v `src/components/Layout.tsx`. Data načítej přes `useApi()` s parametrem `verze` z `useVerze()`. V `localStorage` (vždy přes `nactiLokalne`/`ulozLokalne` z `src/api.ts`) se ukládá jen pohodlí uživatele: vybraná verze (`verze`) a jméno kontrolora (`kontrolor`).
 
 **Citace a odkazy na kapitoly:** v Markdownu je řeší `pripravMarkdown()` (`src/components/Markdown.tsx`), v doslovných textech z dat komponenta `TextSCitacemi` (`src/components/Text.tsx`). `[n]` vede na `/zdroje#zdroj-n`, „kap. 9.4.6“ na `/metodika/9#k-9-4-6`.
 
@@ -100,7 +105,7 @@ Barvy, písma a rozměry jsou jako CSS proměnné v `:root` v `src/styles.css` (
 - `DATABASE_URL` (pooled, pro API) a `DATABASE_URL_UNPOOLED` (migrace, seed) jsou v lokálním `.env`, který je v `.gitignore`. Šablona je `.env.example`. Connection string nikdy necommituj, nevypisuj do výstupu ani nevkládej do kódu SPA.
 - Neon projekt `databaze-investoru` (ID `old-sun-07993505`), výchozí větev `main` s daty v1.1. Větev `test-zapisy` byla vytvořena pro testy zápisů a obsahuje testovací hodnocení a verzi 1.2.
 - Repozitář: https://github.com/KarelSmola/databaze-investoru (větev `main`, **veřejný** – do commitovaných souborů nikdy nepiš hesla).
-- Produkce: https://databaze-investoru.vercel.app
+- Produkce: https://databaze-investoru.vercel.app – Vercel projekt `databaze-investoru` (tým `karel-smolas-projects`) napojený na GitHub: každý push do `main` spustí produkční deploy. Migrace ani seed se při deployi nespouštějí.
 
 ## Pracovní pravidla pro AI agenty
 
@@ -109,11 +114,11 @@ Barvy, písma a rozměry jsou jako CSS proměnné v `:root` v `src/styles.css` (
 - **Testy zápisů do databáze** (kontrola, go/no-go, nové verze) dělej proti větvi `test-zapisy` nebo nové testovací větvi Neonu, ne proti `main` – na `main` jsou data v1.1. Druhý dev server pro testovací větev spusť s `DATABASE_URL=<connection string větve> npx vite --port 5174`.
 - **Destruktivní operace** (mazání větví, `DELETE` nad daty, `db:seed --force`) jen po výslovném souhlasu uživatele.
 - **Ověření změn UI:** po úpravě stránky ji zkontroluj v prohlížeči na desktopu i v mobilní šířce (375 px) a ověř, že `document.documentElement.scrollWidth` nepřesahuje šířku okna.
-- **Git:** commit a push jen na požádání. Soubory v `.github/workflows/` nejde pushnout, dokud uživatel nespustí `gh auth refresh -h github.com -s workflow`.
+- **Git:** commit a push jen na požádání. Push do `main` znamená nasazení do produkce, proto před ním spusť typecheck, lint a testy. Soubory v `.github/workflows/` nejde pushnout, dokud uživatel nespustí `gh auth refresh -h github.com -s workflow`.
 
 ## Stav a otevřené body
 
 - **Přihlášení a role (O-1)** nejsou implementované; kontrolor se identifikuje jen jménem. Nepřidávej autentizaci bez zadání.
 - **CI:** `.github/workflows/ci.yml` je připravený lokálně, ale necommitnutý – token `gh` nemá oprávnění `workflow`.
-- **Nasazení:** produkce běží na https://databaze-investoru.vercel.app (Vercel projekt napojený na GitHub). Na Vercelu musí být nastavené `DATABASE_URL` a `DATABASE_URL_UNPOOLED`, jinak API vrací 500.
+- **Nasazení:** produkce běží a je napojená na hlavní větev Neonu (data v1.1, zatím bez hodnocení kontrolora). Na Vercelu musí být nastavené `DATABASE_URL` a `DATABASE_URL_UNPOOLED`, jinak API vrací 500.
 - **O-5:** úroveň zdroje u části dokladů je `null` (doplní kontrolor). **O-6:** sektory a fáze jsou prázdné, doplní se v nezmrazené verzi.
