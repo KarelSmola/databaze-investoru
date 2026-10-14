@@ -99,7 +99,8 @@ Barvy, písma a rozměry jsou jako CSS proměnné v `:root` v `src/styles.css` (
 
 - `DATABASE_URL` (pooled, pro API) a `DATABASE_URL_UNPOOLED` (migrace, seed) jsou v lokálním `.env`, který je v `.gitignore`. Šablona je `.env.example`. Connection string nikdy necommituj, nevypisuj do výstupu ani nevkládej do kódu SPA.
 - Neon projekt `databaze-investoru` (ID `old-sun-07993505`), výchozí větev `main` s daty v1.1. Větev `test-zapisy` byla vytvořena pro testy zápisů a obsahuje testovací hodnocení a verzi 1.2.
-- Repozitář: https://github.com/KarelSmola/databaze-investoru (větev `main`).
+- Repozitář: https://github.com/KarelSmola/databaze-investoru (větev `main`, **veřejný** – do commitovaných souborů nikdy nepiš hesla).
+- Produkce: https://databaze-investoru.vercel.app
 
 ## Pracovní pravidla pro AI agenty
 
@@ -114,5 +115,5 @@ Barvy, písma a rozměry jsou jako CSS proměnné v `:root` v `src/styles.css` (
 
 - **Přihlášení a role (O-1)** nejsou implementované; kontrolor se identifikuje jen jménem. Nepřidávej autentizaci bez zadání.
 - **CI:** `.github/workflows/ci.yml` je připravený lokálně, ale necommitnutý – token `gh` nemá oprávnění `workflow`.
-- **Nasazení na Vercel** zatím neproběhlo.
+- **Nasazení:** produkce běží na https://databaze-investoru.vercel.app (Vercel projekt napojený na GitHub). Na Vercelu musí být nastavené `DATABASE_URL` a `DATABASE_URL_UNPOOLED`, jinak API vrací 500.
 - **O-5:** úroveň zdroje u části dokladů je `null` (doplní kontrolor). **O-6:** sektory a fáze jsou prázdné, doplní se v nezmrazené verzi.
